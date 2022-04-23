@@ -1,0 +1,30 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Unmanned Aerial Vehicles}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Convolutional neural networks}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Trail following}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Problem analysis}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Trail following problem}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Use-case?}{4}{section.2.2}%
+\contentsline {chapter}{\numberline {3}DNN architecture}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Used operations in the neural network architecture}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Convolutions}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Max-pooling}{6}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Softmax}{6}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Backward propagation of error}{6}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Implementation}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dataset}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Neural network code}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Program for preparing the dataset}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Navigation algorithm}{9}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Simulation}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Software}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Simulation setup}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Simulation results}{11}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Experiment}{12}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Neural network performance test}{12}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Complete tests on vehicle}{12}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusion}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {8}References}{14}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Appendix A}{15}{appendix.A}%

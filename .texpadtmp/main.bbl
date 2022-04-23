@@ -1,0 +1,562 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{ydnt/global//global/global}
+  \entry{li2021survey}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zewen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Wenjie},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Shouheng},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LZLFYW+1}
+    \strng{fullhash}{LZLFYWPSZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{A survey of convolutional neural networks: analysis,
+  applications, and prospects}
+    \field{journaltitle}{IEEE Transactions on Neural Networks and Learning
+  Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{back2020autonomous}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BS}{%
+         family={Back},
+         familyi={B\bibinitperiod},
+         given={Seungho},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Gangik},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Jinwoo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TXT}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Xuan-Toa},
+         giveni={X\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Hyondong},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BSCGOJ+1}
+    \strng{fullhash}{BSCGOJTXTOH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{3}
+    \field{pages}{1195\bibrangedash 1211}
+    \field{title}{Autonomous UAV trail navigation with obstacle avoidance using
+  deep neural networks}
+    \field{volume}{100}
+    \field{journaltitle}{Journal of Intelligent \& Robotic Systems}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chen2020lane}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CW}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Weiwei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weixing},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zhaoying},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Huan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Sheng},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CWWWWK+1}
+    \strng{fullhash}{CWWWWKLZLHLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{6}
+    \field{pages}{748\bibrangedash 774}
+    \field{title}{Lane departure warning systems and lane line detection
+  methods based on image processing and semantic segmentation: A review}
+    \field{volume}{7}
+    \field{journaltitle}{Journal of traffic and transportation engineering
+  (English edition)}
+    \field{year}{2020}
+  \endentry
+
+  \entry{maciel2018extending}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MPBG}{%
+         family={Maciel-Pearson},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
+         given={Bruna\bibnamedelima G},
+         giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Carbonneau},
+         familyi={C\bibinitperiod},
+         given={Patrice},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BTP}{%
+         family={Breckon},
+         familyi={B\bibinitperiod},
+         given={Toby\bibnamedelima P},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MPBGCPBTP1}
+    \strng{fullhash}{MPBGCPBTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Annual Conference Towards Autonomous Robotic Systems}
+    \field{pages}{147\bibrangedash 158}
+    \field{title}{Extending deep neural network trail navigation for unmanned
+  aerial vehicle operation within the forest canopy}
+    \field{year}{2018}
+  \endentry
+
+  \entry{smolyanskiy2017toward}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SN}{%
+         family={Smolyanskiy},
+         familyi={S\bibinitperiod},
+         given={Nikolai},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kamenev},
+         familyi={K\bibinitperiod},
+         given={Alexey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Birchfield},
+         familyi={B\bibinitperiod},
+         given={Stan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SNKASJ+1}
+    \strng{fullhash}{SNKASJBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent
+  Robots and Systems (IROS)}
+    \field{pages}{4241\bibrangedash 4247}
+    \field{title}{Toward low-flying autonomous MAV trail navigation using deep
+  neural networks for environmental awareness}
+    \field{year}{2017}
+  \endentry
+
+  \entry{giusti2016machine}{article}{}
+    \name{author}{12}{}{%
+      {{hash=GA}{%
+         family={Giusti},
+         familyi={G\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Guzzi},
+         familyi={G\bibinitperiod},
+         given={Jerome},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Ciresan},
+         familyi={C\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HFL}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Fang-Lin},
+         giveni={F\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=RJP}{%
+         family={Rodriguez},
+         familyi={R\bibinitperiod},
+         given={Juan\bibnamedelima Pablo},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fontana},
+         familyi={F\bibinitperiod},
+         given={Flavio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faessler},
+         familyi={F\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Forster},
+         familyi={F\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schmidhuber},
+         familyi={S\bibinitperiod},
+         given={Jurgen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DCG}{%
+         family={Di\bibnamedelima Caro},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Gianni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Scaramuzza},
+         familyi={S\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gambardella},
+         familyi={G\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAGJCD+1}
+    \strng{fullhash}{GAGJCDHFLRJPFFFMFCSJDCGSDGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{A Machine Learning Approach to Visual Perception of Forest
+  Trails for Mobile Robots}
+    \field{journaltitle}{IEEE Robotics and Automation Letters}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ronneberger2015u}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Brox},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ROFPBT1}
+    \strng{fullhash}{ROFPBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{International Conference on Medical image computing and
+  computer-assisted intervention}
+    \field{pages}{234\bibrangedash 241}
+    \field{title}{U-net: Convolutional networks for biomedical image
+  segmentation}
+    \field{year}{2015}
+  \endentry
+
+  \entry{yu2014mixed}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=YD}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Dingjun},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Hanli},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Peiqiu},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Zhihua},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{YDWHCP+1}
+    \strng{fullhash}{YDWHCPWZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{International conference on rough sets and knowledge
+  technology}
+    \field{pages}{364\bibrangedash 375}
+    \field{title}{Mixed pooling for convolutional neural networks}
+    \field{year}{2014}
+  \endentry
+
+  \entry{keane2013brief}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJF}{%
+         family={Keane},
+         familyi={K\bibinitperiod},
+         given={John\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CSS}{%
+         family={Carr},
+         familyi={C\bibinitperiod},
+         given={Stephen\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJFCSS1}
+    \strng{fullhash}{KJFCSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{3}
+    \field{pages}{558\bibrangedash 571}
+    \field{title}{A brief history of early unmanned aircraft}
+    \field{volume}{32}
+    \field{journaltitle}{Johns Hopkins APL Technical Digest}
+    \field{year}{2013}
+  \endentry
+
+  \entry{santana2013tracking}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SP}{%
+         family={Santana},
+         familyi={S\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={Lu{\'\i}s},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mendon{\c{c}}a},
+         familyi={M\bibinitperiod},
+         given={Ricardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={Nelson},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Barata},
+         familyi={B\bibinitperiod},
+         given={Jos{\'e}},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{SPCLMR+1}
+    \strng{fullhash}{SPCLMRANBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{64\bibrangedash 86}
+    \field{title}{Tracking natural trails with swarm-based visual saliency}
+    \field{volume}{30}
+    \field{journaltitle}{Journal of Field Robotics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{krizhevsky2012imagenet}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Krizhevsky},
+         familyi={K\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KASIHGE1}
+    \strng{fullhash}{KASIHGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Imagenet classification with deep convolutional neural
+  networks}
+    \field{volume}{25}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2012}
+  \endentry
+
+  \entry{batavia1999driver}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BPH}{%
+         family={Batavia},
+         familyi={B\bibinitperiod},
+         given={Parag\bibnamedelima H},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Carnegie Mellon University}%
+    }
+    \strng{namehash}{BPH1}
+    \strng{fullhash}{BPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{8}
+    \field{sortinithash}{8}
+    \field{title}{Driver-adaptive lane departure warning systems}
+    \field{year}{1999}
+  \endentry
+\enddatalist
+\endinput
