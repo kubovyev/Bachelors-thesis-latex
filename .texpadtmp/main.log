@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.23)  22 APR 2022 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.23)  24 APR 2022 21:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1496,7 +1496,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 29.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./src/title.tex
-<fig/ctu_lion.pdf, id=175, 561.09625pt x 440.64626pt>
+<fig/ctu_lion.pdf, id=183, 561.09625pt x 440.64626pt>
 File: fig/ctu_lion.pdf Graphic file (type pdf)
 <use fig/ctu_lion.pdf>
 Package pdftex.def Info: fig/ctu_lion.pdf  used on input line 11.
@@ -1520,7 +1520,7 @@ l.54 \conditionalClearPage
                            [1
 
 ]
-<src/assignment.pdf, id=190, 597.50829pt x 845.0471pt>
+<src/assignment.pdf, id=198, 597.50829pt x 845.0471pt>
 File: src/assignment.pdf Graphic file (type pdf)
 <use src/assignment.pdf>
 Package pdftex.def Info: src/assignment.pdf  used on input line 56.
@@ -1529,7 +1529,7 @@ File: src/assignment.pdf Graphic file (type pdf)
 <use src/assignment.pdf>
 Package pdftex.def Info: src/assignment.pdf  used on input line 56.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<src/assignment.pdf, id=193, page=1, 597.50829pt x 845.0471pt>
+<src/assignment.pdf, id=201, page=1, 597.50829pt x 845.0471pt>
 File: src/assignment.pdf Graphic file (type pdf)
 <use src/assignment.pdf, page 1>
 Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
@@ -1560,7 +1560,7 @@ Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
 
 ] (/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.toc
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 38.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 39.
 
 [6
 
@@ -1576,7 +1576,7 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 100.
 
 Chapter 1.
-<./fig/photos/firefighter.jpeg, id=301, 5203.44pt x 3468.96pt>
+<./fig/photos/firefighter.jpeg, id=311, 5203.44pt x 3468.96pt>
 File: ./fig/photos/firefighter.jpeg Graphic file (type jpg)
 <use ./fig/photos/firefighter.jpeg>
 Package pdftex.def Info: ./fig/photos/firefighter.jpeg  used on input line 115.
@@ -1593,7 +1593,7 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
  <./fig/photos/firefighter.jpeg>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/photos/recurrent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./fig/photos/recurrent.pdf, id=313, 153.6942pt x 169.5936pt>
+<./fig/photos/recurrent.pdf, id=323, 153.6942pt x 169.5936pt>
 File: ./fig/photos/recurrent.pdf Graphic file (type pdf)
 <use ./fig/photos/recurrent.pdf>
 Package pdftex.def Info: ./fig/photos/recurrent.pdf  used on input line 143.
@@ -1602,7 +1602,7 @@ Package pdftex.def Info: ./fig/photos/recurrent.pdf  used on input line 143.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<./fig/photos/challenging_path.jpg, id=325, 1284.8pt x 963.6pt>
+<./fig/photos/challenging_path.jpg, id=335, 1284.8pt x 963.6pt>
 File: ./fig/photos/challenging_path.jpg Graphic file (type jpg)
 <use ./fig/photos/challenging_path.jpg>
 Package pdftex.def Info: ./fig/photos/challenging_path.jpg  used on input line 163.
@@ -1612,23 +1612,23 @@ Package pdftex.def Info: ./fig/photos/challenging_path.jpg  used on input line 1
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./fig/photos/recurrent.pdf>]
-<./fig/photos/trail1.jpg, id=349, 754.82pt x 481.8pt>
+<./fig/photos/trail1.jpg, id=359, 754.82pt x 481.8pt>
 File: ./fig/photos/trail1.jpg Graphic file (type jpg)
 <use ./fig/photos/trail1.jpg>
 Package pdftex.def Info: ./fig/photos/trail1.jpg  used on input line 178.
 (pdftex.def)             Requested size: 213.05243pt x 135.99112pt.
-<./fig/photos/road.PNG, id=352, 1974.37625pt x 1174.3875pt>
+<./fig/photos/road.PNG, id=362, 1974.37625pt x 1174.3875pt>
 File: ./fig/photos/road.PNG Graphic file (type png)
 <use ./fig/photos/road.PNG>
 Package pdftex.def Info: ./fig/photos/road.PNG  used on input line 182.
 (pdftex.def)             Requested size: 213.05243pt x 126.7101pt.
  [4 <./fig/photos/challenging_path.jpg> <./fig/photos/trail1.jpg> <./fig/photos/road.PNG>]
-<./fig/photos/class_l.jpg, id=371, 754.82pt x 481.8pt>
+<./fig/photos/class_l.jpg, id=381, 754.82pt x 481.8pt>
 File: ./fig/photos/class_l.jpg Graphic file (type jpg)
 <use ./fig/photos/class_l.jpg>
 Package pdftex.def Info: ./fig/photos/class_l.jpg  used on input line 199.
 (pdftex.def)             Requested size: 210.83434pt x 134.57225pt.
-<./fig/photos/class_r.jpg, id=372, 754.82pt x 481.8pt>
+<./fig/photos/class_r.jpg, id=382, 754.82pt x 481.8pt>
 File: ./fig/photos/class_r.jpg Graphic file (type jpg)
 <use ./fig/photos/class_r.jpg>
 Package pdftex.def Info: ./fig/photos/class_r.jpg  used on input line 208.
@@ -1638,7 +1638,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 194--209
 []$[]$ $[]$ 
  []
 
-<./fig/photos/class_s.jpg, id=373, 754.82pt x 481.8pt>
+<./fig/photos/class_s.jpg, id=383, 754.82pt x 481.8pt>
 File: ./fig/photos/class_s.jpg Graphic file (type jpg)
 <use ./fig/photos/class_s.jpg>
 Package pdftex.def Info: ./fig/photos/class_s.jpg  used on input line 214.
@@ -1653,98 +1653,104 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 [6
 
-] [7] [8]
+]
+<./fig/photos/hyperbolic_tangent.png, id=418, 2569.6pt x 1416.29124pt>
+File: ./fig/photos/hyperbolic_tangent.png Graphic file (type png)
+<use ./fig/photos/hyperbolic_tangent.png>
+Package pdftex.def Info: ./fig/photos/hyperbolic_tangent.png  used on input line 302.
+(pdftex.def)             Requested size: 266.32062pt x 146.78079pt.
+ [7 <./fig/photos/hyperbolic_tangent.png>] [8] [9]
 Chapter 3.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 354.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 374.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 354.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 374.
 
-[9
+[10
 
-] [10] [11]
+] [11] [12]
 Chapter 4.
-LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 400.
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 420.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 400.
+(Font)              scaled to size 10.95pt on input line 420.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 418.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 438.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 418.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 438.
 
-[12
+[13
 
-] [13]
+] [14]
 Chapter 5.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 442.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 462.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 442.
-
-[14
-
-]
-Chapter 6.
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 450.
-
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 450.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 462.
 
 [15
 
 ]
-Chapter 7.
+Chapter 6.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 464.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 470.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 464.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 470.
 
 [16
+
+]
+Chapter 7.
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 484.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 484.
+
+[17
 
 ]
 Appendix A.
 
 AED: lastpage setting LastPage
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 466.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 486.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 466.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 486.
 
-[17
+[18
 
 ] (/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A9A7223D5AC2DB68B622F964C6912B88;5211.
+(rerunfilecheck)             Checksum: C2F7C18D0B585E1370399C7C706AD449;5489.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53340 strings out of 478994
- 1189287 string characters out of 5858184
- 2077326 words of memory out of 5000000
- 69765 multiletter control sequences out of 15000+600000
+ 53358 strings out of 478994
+ 1189652 string characters out of 5858184
+ 2078387 words of memory out of 5000000
+ 69775 multiletter control sequences out of 15000+600000
  418803 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,91p,1849b,2537s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on "/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.pdf" (25 pages, 8575758 bytes).
+Output written on "/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.pdf" (26 pages, 8632670 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
- 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 

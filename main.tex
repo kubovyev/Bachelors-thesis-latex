@@ -291,7 +291,20 @@ where kernel has $m$ rows and $n$ columns, $i$ runs from 1 to $M-m+1$, $j$ runs 
 
 \subsection{Hyperbolic tangent}
 
+For neural network to not act as a linear classifier, a nonlinearity should be introduced in its hidden layers. It allows the network to solve more complex tasks and increase its performance. It is also a nature-inspired approach. Nonlinearity is introduced using nonlinear activation layers, added after each convolutional layer. Most popular activation functions are Rectified Linear Unit (ReLU), Leaky ReLU, Sigmoid and Hyperbolic Tangent. The last one is used in this thesis. Hyperbolic Tangent has very similar shape to the Sigmoid and also maps the output only to the range of [-1, 1] (\reffig{fig:htangent}). It is calculated using the following equation:
+\begin{equation}
+	\textrm{tanh}(x) = \frac{e^x-e^{-x}}{e^x+e^{-x}}\,,
+\end{equation}
+where $x$ is the real input value obtained after convolution stamp.
 
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.6\textwidth]{./fig/photos/hyperbolic_tangent.png}
+
+  \caption{Hyperbolic Tangent function.}
+  Author: Geek3, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4198479
+  \label{fig:htangent}
+\end{figure}
 
 
 \subsection{Max-pooling}
@@ -317,15 +330,18 @@ Backward propagation is the way to calculate the gradient of the loss function $
 
 First part of backpropagation is a forward pass. Given the input data and the weights, output of the neural network is calculated and compared with ground truth through the loss function. Then, backward pass starts. Partial derivatives are calculated sequentially through each layer, starting from the last one, and after multiplication give the total gradient $\frac{\partial J}{\partial \textbf{w}}$\,.
 
-Used in this thesis architecture consists of convolutional layers, max-pooling layers and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the ouput, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. In convolutional layer backpropagation is the convolution of input feature map with upstream gradient. 
+Used in this thesis architecture consists of convolutional layers, max-pooling layers and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. In convolutional layer back propagation is the convolution of input feature map with upstream gradient. 
 
 
 
+\section{Loss function}
 
+To successfully train the neural network, a loss function is necessary. It estimates the "penalty" of the difference between a ground truth and prediction of the neural network. Loss function outputs one real value based on this data. Then, using the back propagation, a "penalty" gets minimised. In this thesis I use a cross-entropy loss criterion. Its equation is:
 
-
-
-
+\begin{equation}
+	Loss = -\sum\limits_{x=0}^n p(x)\cdot \textrm{log} \,q(x) \,,
+\end{equation}
+where $n$ is the number of classes, $p(x)$ is the desired probability of the class (ground truth), $q(x)$ is the prediction from the neural network.
 
 
 
