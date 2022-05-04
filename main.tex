@@ -323,6 +323,19 @@ The softmax function is defined as:
 where $z_i$ are elements of the real input vector, $\sigma(\vec z)$ is and output, $n$ is the number of outputs.
 
 
+\begin{figure}[!h]
+  \centering
+  
+  \input{cnn}
+  
+  \caption{Used neural network architecture.}
+  \label{fig:architecture}
+\end{figure}
+
+
+% Input ^ adds 600 words, idk why
+
+
 \section{Backward propagation of error}
 \label{backprop}
 
@@ -330,7 +343,7 @@ Backward propagation is the way to calculate the gradient of the loss function $
 
 First part of backpropagation is a forward pass. Given the input data and the weights, output of the neural network is calculated and compared with ground truth through the loss function. Then, backward pass starts. Partial derivatives are calculated sequentially through each layer, starting from the last one, and after multiplication give the total gradient $\frac{\partial J}{\partial \textbf{w}}$\,.
 
-Used in this thesis architecture consists of convolutional layers, max-pooling layers and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. In convolutional layer back propagation is the convolution of input feature map with upstream gradient. 
+Used in this thesis architecture consists of convolutional layers, max-pooling layers, hyperbolic tangent activation and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. In convolutional layer back propagation is the convolution of input feature map with the upstream gradient. Derivative of hyperbolic tangent is $\frac{d\textrm{tanh}(x)}{dx} = 1-\textrm{tanh}(x)^2$.
 
 
 
@@ -402,10 +415,51 @@ For each selected sub-part program iterates through all images from the dataset,
 Pickle is a tool for serialization of Python objects, which is handy in this case, because the whole prepared, ready-to-use dataset can be transferred as a single file.
 
 \section{Navigation algorithm}
-TODO: Describe how do I calculate the yaw rate to follow the trail.
+
+Two different approaches were tested in this thesis. First is angular and forward velocity generation, second is trajectory generation. 
+
+\subsection{Velocity generation}
+
+Generating velocities is the most intuitive way to utilise the neural network for trail following. In this case, input to a drone are only two values: angular velocity for heading correction and forward velocity for moving along the path when it is safe according to neural network outputs. Angular velocity $\omega$ can be calculated using a simple formula:
+
+\begin{equation}
+	\omega = (\textrm{p}(x = \textrm{R}) - \textrm{p}(x = \textrm{L}))\cdot\omega_{max}\,,
+\end{equation}
+where $\textrm{p}(x = \textrm{R})$ is the probability of the current direction being "right", $\textrm{p}(x = \textrm{L})$ is the probability of the current direction being "left", $\omega_{max}$ is the maximum desired angular velocity. Forward speed $v_x$ is calculated according to a formula:
+
+\begin{equation}
+	v_x = \textrm{p}(x = \textrm{S})\cdot v_{max}\,,
+\end{equation}
+where $\textrm{p}(x = \textrm{S})$ is the probability of the current direction being "straight" and $v_{max}$ is the maximum desired longtitudinal velocity.
 
 
+\subsection{Trajectory generation}
 
+MRS ROS-based system allows to control a UAV using trajectories. They are represented as a sequence of geometric poses, which a vehicle should take. Implemented neural network does not allow to predict future direction of travel and gives an output only for current drone position. Therefore, it is possible to predict only one point of the trajectory on every image pass through the neural network. This point can be immediately sent to a path planner. Such approach has a big advantage: the algorithm can be run simultaneously with obstacle avoidance and other features. Path planner can then decide whether suggested direction is safe or other maneuver must be taken to evade a collision.
+
+A point is given to the system in a format of \texttt{Reference} MRS message. It consists of a \texttt{float64} value "heading" and a \texttt{Point} message "position", formed by three \texttt{float64} values for the position in x, y and z axes. Therefore, each point is described by 4 \texttt{float} values. These points can be represented relative to the UAV current position with tilt-correction (xy plane is always parallel to the ground and z is always perpendicular). 
+
+Heading $\alpha$ for the trajectory point is calculated according to the formula:
+
+\begin{equation}
+	\alpha = (\textrm{p}(x = \textrm{R}) - \textrm{p}(x = \textrm{L}))\cdot \alpha_{max}\,,
+\end{equation}
+where $\alpha_{max}$ is the maximum desired increment in radians. Step in x-axis $r_x$ relative to the current position is calculated as
+
+\begin{equation}
+	r_x = \textrm{p}(x = \textrm{S})\cdot \textrm{cos}(\alpha)\cdot r_{max}\,,
+\end{equation}
+where $r_{max}$ is a maximum desired step length. Step in y-axis $r_y$ is calculated as
+\begin{equation}
+	r_y = \textrm{p}(x = \textrm{S})\cdot \textrm{sin}(\alpha)\cdot r_{max}\,.
+\end{equation}
+Altitude is considered to remain constant so for each point it is set to $(1.8 - actual\_height)$\,m above the ground. Similar altitude was used in the dataset. Parameters $\alpha_{max}$, $r_{max}$ can be calibrated for better performance.
+
+Such policy will be used during the experiments because the ability to combine the algorithm with a path planner is a priority.
+
+\subsection{Filtering of the neural network output}
+
+Implemented neural network produces results online, at 30\,hz. During the operation, a lens flare or other short-term disturbance can occur. It leads to rapid changes in prediction and combined with trajectory generation creates wrong, potentially unsafe points in a trajectory. Therefore, output must be filtered. To get rid of high frequency changes, a low-pass filter must be used. In this thesis was decided to use a simple yet effective low pass filter: a moving average filter. For frame number $n$ it also remembers $k-1$ previous predictions and outputs average of these $k$ predictions. Value $k=15$ showed good results during tests and thus was used in this work.
 
 
 \chapter{Simulation}
@@ -455,9 +509,24 @@ For evaluation of the neural network performance in real-world forest conditions
 
 TODO: PHOTOS
 
-Testing showed good neural network performance. Accuracy of determining the "left" and "right" classes in situation where it is also possible for humans was 100\%. There was once a situation though, where the neural network was outputting small probability of "straight" class, when looking straight. Probabilities of "left" and "right" were same, close to 50\%. But the issue was clearly dependent on tilt angle of the camera, after tilting it a few degrees down, problem was solved. Possible source of issue could be not only the neural network fail-case, but also lens flare. TODO
+Testing showed good neural network performance. Accuracy of determining the "left" and "right" classes in situation where it is also possible for humans was 100\%. There was once a situation though, where the neural network was outputting small probability of "straight" class, when looking straight. Probabilities of "left" and "right" were same, close to 50\%. But the issue was clearly dependent on the tilt angle of a camera, after tilting it a few degrees down, problem was solved. Possible source of issue could be not only the neural network fail-case, but also lens flare. TODO
 
 \section{Complete tests on vehicle}
+
+Real-world evaluation was conducted in a forest near the Czech town Temešvár. Together with MRS team, we have found a suitable forest trails, where an algorithm can be thoroughly tested. Trails are of different complexity (visually) and contain slight obstacles on the sides TODO: FIG REF. 
+
+TODO: 3 trails images
+
+First trail is a partly dirty asphalt road with turns, surrounded by trees and bushes, 2.3\,m wide. The UAV travelled approximately 80 meters through this road. Due to the limited field of view of the camera and relatively wide trail, when being in the middle of it, vehicle was seeing only a grey dull pattern with no features and because of that outputed 100\% probability of "straight" class even when not pointed straight. But as soon as the UAV gets close to the road edge, neural network recognises it and gives the command to turn in opposite direction. Then it starts flying along the path and slowly getting closer to the other side and same situation happens. However, this "zig-zag" behaviour does not affect the performance too much. But in some situations flying close to the road edge is dangerous and during this test, path planner prevented the drone from executing several waypoints due to their proximity to an obstacle.
+
+TODO: Image when close to obstacle, image during the execution, image from the drone with probabilities
+
+Second trail is a completely dirt road 2-2.3\,m wide with one sharp turn and fences on sides. It was hard for the UAV to stay on it. A lot of distractive features were present on the road and trail itself was not well maintained. When analysing the images, it can be seen that contrast between the trail and dry grass on sides is very low. Probably, colour adjustments of the camera are required and also including such low-contrast images to the dataset should help. Also, there was a ditch on the road which looked like a trail for the UAV. However, when obstacle avoidance prevented it from flying into the bush, real trail reappeared in the field of view and vehicle managed to return on track. At the end, it got distracted again. Such trail was not followed with much success, but after mentioned improvements, results should be way better.
+
+TODO: Image when got distracted, image of low contrast and satellite images
+
+Third trail is a gravel and dirt road with slight turns. Contrast between the road and sides on the gravel part is better than on previous trails. On dirt part contrast gets much lower, distinction between trail and sides is not as clear. But it has not not confused the CNN. Its performance was better than on other trails. UAV has flown a long way through it. However, in the end it got confused by the lying logs and vehicle started "following" one of it. It has probably happened due to the road and sides being both covered in dirt and from vehicle camera perspective they were not distinguishable.
+
 
 \chapter{Conclusion}
 

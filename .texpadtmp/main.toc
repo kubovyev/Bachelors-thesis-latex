@@ -28,13 +28,16 @@
 \contentsline {section}{\numberline {3.4}Neural network code}{11}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Program for preparing the dataset}{12}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Navigation algorithm}{12}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Simulation}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Software}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Simulation setup}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Simulation results}{14}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Experiment}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Neural network performance test}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Complete tests on vehicle}{15}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {7}References}{17}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Appendix A}{18}{appendix.A}%
+\contentsline {subsection}{\numberline {3.6.1}Velocity generation}{12}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Trajectory generation}{13}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Filtering of the neural network output}{13}{subsection.3.6.3}%
+\contentsline {chapter}{\numberline {4}Simulation}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Software}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Simulation setup}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Simulation results}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Experiment}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Neural network performance test}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Complete tests on vehicle}{17}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}References}{20}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Appendix A}{21}{appendix.A}%
