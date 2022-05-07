@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {1.2.4}Classification networks}{3}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1.3}Trail following}{3}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Methodology}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}DNN}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.1}\acs {CNN}}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Convolutions}{6}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Hyperbolic tangent}{7}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Max-pooling}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Max-pooling}{7}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Softmax}{8}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Backward propagation of error}{8}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Loss function}{8}{section.2.3}%
@@ -26,6 +26,7 @@
 \contentsline {subsection}{\numberline {3.2.2}PyTorch framework}{11}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Dataset}{11}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Neural network code}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Training algorithm}{12}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Program for preparing the dataset}{12}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Navigation algorithm}{12}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Velocity generation}{12}{subsection.3.6.1}%
@@ -38,6 +39,6 @@
 \contentsline {chapter}{\numberline {5}Experiment}{17}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Neural network performance test}{17}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Complete tests on vehicle}{17}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}%
-\contentsline {chapter}{\numberline {7}References}{20}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Appendix A}{21}{appendix.A}%
+\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}References}{24}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Appendix A}{25}{appendix.A}%
