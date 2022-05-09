@@ -212,7 +212,7 @@ Treating the trail following task as a classification problem is a different app
     \includegraphics[width=0.5\textwidth]{./fig/photos/class_s.jpg}
     \label{fig:class_r}
   }
-  \caption{Example images of different classes}
+  \caption{Example images of different classes.}
   \label{fig:classes}
 \end{figure}
 
@@ -241,7 +241,7 @@ TODO: Is backpropagation description good enough? (and formulas?)
 In this thesis an architecture suggested by \citeauthor{giusti2016machine} will be used. It consists of 4 convolutional layers, each followed by hyperbolic tangent activation and max pooling layer, and then a fully connected layer with 200 hidden neurons. Network processes images from a camera, attached to a vehicle. Input layer is formed by $3\times 101\times101$ neurons. Therefore, input \acs{RGB} image must be anisotropically resized to a size $101\times101$ pixels to be fed directly to the network. After going through all the hidden layers and the softmax output layer it produces 3 probabilities of each class, which sum to 1. Based on these probabilities it is possible to determine at which direction is the camera most probably pointed. Given the fact that side cameras are pointed $30 \degree$ from the centre, interpolation is also possible based on these probabilities.  
 
 
-\section{\acs{CNN}}
+\section{CNN}
 \subsection{Convolutions}
 
 Convolution is a fundamental mathematical operation used in a wide range of image processing techniques. In the context of Convolutional Neural Networks, convolution of an input matrix $I$ with a so called "kernel" matrix $K$ is applied to obtain an output matrix $O$. The kernel is typically smaller and is applied to submatrices of $I$ to extract features corresponding to $K$ in different regions of $I$. The convolutional layer of a \acs{CNN} typically also contains a bias term $w_0$. The kernel matrix $K$ and the bias $w_0$ are parameters that are learned during the training phase using the backpropagation algorithm, described in section \ref{backprop}. 
@@ -336,7 +336,25 @@ Backward propagation is the way to calculate the gradient of the loss function $
 
 First part of backpropagation is a forward pass. Given the input data and the weights, output of the neural network is calculated and compared with ground truth through the loss function. Then, backward pass starts. Partial derivatives are calculated sequentially through each layer, starting from the last one, and after multiplication give the total gradient $\frac{\partial J}{\partial \textbf{w}}$\,.
 
-Used in this thesis architecture consists of convolutional layers, max-pooling layers, hyperbolic tangent activation and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. In convolutional layer back propagation is the convolution of input feature map with the upstream gradient. Derivative of hyperbolic tangent is $\frac{d\textrm{tanh}(x)}{dx} = 1-\textrm{tanh}(x)^2$.
+Used in this thesis architecture consists of convolutional layers, max-pooling layers, hyperbolic tangent activation and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. Derivative of hyperbolic tangent is $\frac{d\textrm{tanh}(x)}{dx} = 1-\textrm{tanh}(x)^2$. In convolutional layer back propagation is the convolution of input feature map with the upstream gradient (\reffig{fig:conv_bp}). On the figure, matrix $x$ is input feature map, $w$ are weights, $\gamma(y)$ is any function. In this case, backpropagation through the convolution will be:
+\begin{equation}
+\begin{aligned}
+	\frac{\partial \gamma}{\partial w_{11}} = \frac{\partial\gamma}{\partial y_{11}} x_{11} + \frac{\partial\gamma}{\partial y_{12}} x_{12} + \frac{\partial\gamma}{\partial y_{21}} x_{21} + \frac{\partial\gamma}{\partial y_{22}} x_{22}\,, \\
+	\frac{\partial \gamma}{\partial w_{12}} = \frac{\partial\gamma}{\partial y_{11}} x_{12} + \frac{\partial\gamma}{\partial y_{12}} x_{13} + \frac{\partial\gamma}{\partial y_{21}} x_{22} + \frac{\partial\gamma}{\partial y_{22}} x_{23}\,, \\
+	\frac{\partial \gamma}{\partial w_{21}} = \frac{\partial\gamma}{\partial y_{11}} x_{21} + \frac{\partial\gamma}{\partial y_{12}} x_{22} + \frac{\partial\gamma}{\partial y_{21}} x_{31} + \frac{\partial\gamma}{\partial y_{22}} x_{32}\,, \\
+	\frac{\partial \gamma}{\partial w_{22}} = \frac{\partial\gamma}{\partial y_{11}} x_{22} + \frac{\partial\gamma}{\partial y_{12}} x_{23} + \frac{\partial\gamma}{\partial y_{21}} x_{32} + \frac{\partial\gamma}{\partial y_{22}} x_{33}\,.
+\end{aligned}
+\end{equation}
+
+
+
+\begin{figure}[!h]
+
+  \centering
+  \includegraphics[width=0.75\textwidth]{./fig/photos/Conv_BP.pdf}
+  \caption{Upstream gradient in convolutional layer.}
+  \label{fig:conv_bp}
+\end{figure}
 
 
 
@@ -601,11 +619,11 @@ Real-world evaluation was conducted in a forest near the Czech town Temešvár. 
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_3_op.png}
     \label{fig:path_3}
   }
-  \caption{Three trails used for testing}
+  \caption{The three trails used for testing.}
   \label{fig:trails}
 \end{figure}
 
-First trail (\reffig{fig:path_1}) is a partly dirty asphalt road with turns, surrounded by trees and bushes, 2.3\,m wide. The \acs{UAV} travelled approximately 80 meters through this road. Due to the limited \acs{FOV} of the camera and relatively wide trail, when being in the middle of it, vehicle was seeing only a grey dull pattern with no features and because of that outputed 100\% probability of "straight" class even when not pointed straight. But as soon as the \acs{UAV} gets close to the road edge, neural network recognises it and gives the command to turn in opposite direction. Then it starts flying along the path and slowly getting closer to the other side and same situation happens. However, this "zig-zag" behaviour does not affect the performance too much. But in some situations flying close to the road edge is dangerous and during this test, path planner prevented the vehicle from executing several waypoints due to their proximity to an obstacle (\reffig{fig:avoid_1}). Problem can be solved by using a camera with wider \acs{FOV}. Travelled distance on the first path is 130\,m (\reffig{fig:satellite_1}).
+The first trail (\reffig{fig:path_1}) is a 2.3\,m wide partly dirty asphalt road with turns, surrounded by trees and bushes. Due to the limited \acs{FOV} of the camera and relatively wide trail, when being in the middle of it, vehicle was seeing only a grey dull pattern with no features and because of that outputed 100\% probability of "straight" class even when not pointed straight. But as soon as the \acs{UAV} gets close to the road edge, neural network recognises it and gives the command to turn in opposite direction. Then it starts flying along the path and slowly getting closer to the other side and same situation happens. However, this "zig-zag" behaviour does not affect the performance too much. But in some situations flying close to the road edge is dangerous and during this test, path planner prevented the vehicle from executing several waypoints due to their proximity to an obstacle (\reffig{fig:avoid_1}). Problem can be solved by using a camera with wider \acs{FOV}. Travelled distance on the first path is 130\,m (\reffig{fig:satellite_1}).
 
 TODO: images from the drone with probabilities and point cloud
 
@@ -620,17 +638,17 @@ TODO: images from the drone with probabilities and point cloud
   \centering	
   
 
-  \subfloat[Satellite image.] {
+  \subfloat[Satellite image from Google Maps.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_1.png}
     \label{fig:satellite_1}
   }
 
-  \caption{First experiment.}
+  \caption{The first experiment.}
   \label{fig:first_trail_photos}
 \end{figure}
 
 
-Second trail (\reffig{fig:path_2}) is a completely dirt road 2-2.3\,m wide with one sharp turn and fences on sides. It was hard for the \acs{UAV} to stay on it. A lot of distractive features were present on the road and trail itself was not well maintained. When analysing the images, it can be seen that contrast between the trail and dry grass on sides is very low. Probably, colour adjustments of the camera are required and also including such low-contrast images to the dataset should help. Also, there was a ditch on the road which looked like a trail for the \acs{UAV} (\reffig{fig:confused_2}). However, when obstacle avoidance prevented it from flying into the bush, real trail reappeared in the field of view and vehicle managed to return on track. At the end, it got distracted again. Such trail was not followed with much success, but after mentioned improvements, results should be way better. Total travelled distance on this path was 40\,m (\reffig{fig:satellite_2}).
+The second trail (\reffig{fig:path_2}) is a 2-2.3\,m wide completely dirt road with one sharp turn and fences on sides. It was hard for the \acs{UAV} to stay on it. A lot of distractive features were present on the road and trail itself was not well maintained. When analysing the images, it can be seen that contrast between the trail and dry grass on sides is very low. Probably, colour adjustments of the camera are required and also including such low-contrast images to the dataset should help. Also, there was a ditch on the road which looked like a trail for the \acs{UAV} (\reffig{fig:confused_2}). However, when obstacle avoidance prevented it from flying into the bush, real trail reappeared in the field of view and vehicle managed to return on track. At the end, it got distracted again. Such trail was not followed with much success, but after mentioned improvements, results should be way better. Total travelled distance on this path was 40\,m (\reffig{fig:satellite_2}).
 
 TODO: image of low contrast, onboard
 
@@ -645,16 +663,16 @@ TODO: image of low contrast, onboard
   \centering	
   
 
-  \subfloat[Satellite image.] {
+  \subfloat[Satellite image from Google Maps.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_2.png}
     \label{fig:satellite_2}
   }
 
-  \caption{Second experiment.}
+  \caption{The second experiment.}
   \label{fig:second_trail_photos}
 \end{figure}
 
-Third trail (\reffig{fig:path_3}) is a gravel and dirt road with slight turns. Contrast between the road and sides on the gravel part is better than on previous trails. On dirt part contrast gets much lower, distinction between trail and sides is not as clear. But it has not not confused the \acs{CNN}. Its performance was better than on other trails. \acs{UAV} has flown a long way through it. However, in the end it got confused by the lying logs and vehicle started "following" one of them (\reffig{fig:fail_log_3}). It has probably happened due to the road and sides being both covered in dirt and from vehicle camera perspective they were not distinguishable. Total path flown is 160\,m on this trail (\reffig{fig:satellite_3}).
+The third trail (\reffig{fig:path_3}) is a 2.8\,m wide gravel and dirt road with slight turns. Contrast between the road and sides on the gravel part is better than on previous trails. On dirt part contrast gets much lower, distinction between trail and sides is not as clear. But it has not not confused the \acs{CNN}. Its performance was better than on other trails. \acs{UAV} has flown a long way through it. However, in the end it got confused by the lying logs and vehicle started "following" one of them (\reffig{fig:fail_log_3}). It has probably happened due to the road and sides being both covered in dirt and from vehicle camera perspective they were not distinguishable. Total path flown is 160\,m on this trail (\reffig{fig:satellite_3}).
 
 \begin{figure}[!h]
 
@@ -667,22 +685,23 @@ Third trail (\reffig{fig:path_3}) is a gravel and dirt road with slight turns. C
   \centering	
   
 
-  \subfloat[Satellite image.] {
+  \subfloat[Satellite image from Google Maps.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_3.png}
     \label{fig:satellite_3}
   }
 
-  \caption{Third experiment.}
+  \caption{The third experiment.}
   \label{fig:third_trail_photos}
 \end{figure}
 
 
 \chapter{Conclusion}
 
+%TODO: \include{csquotes}, potom \enquote{v uvozovkach}
 
-In this thesis, a classification convolutional neural network was implemented to solve the trail following problem utilising purely visual approach. Using only an RGB camera is a cheap solution and no other hardware than onboard PC with camera is mandatory to run the program. Also, neural network is supplemented by an algorithm, which generates trajectory points according to prediction. Program is able to run in Gazebo simulations and in real-world conditions online and was tested in both virtual and real environments. 
+In this thesis, a 3-class classification convolutional neural network was implemented to solve the trail following problem utilising purely visual approach. Using only an RGB camera is a cheap solution and no other hardware than onboard PC with camera is mandatory to run the program. Also, neural network is supplemented by an algorithm, which generates trajectory points according to prediction. Program is able to run in Gazebo simulations and in real-world conditions online and was tested in both virtual and real environments.
 
-During the training process, neural network showed up to 90\% accuracy on validation dataset. However, this dataset was acquired by other cameras than those used in this thesis. During the experiments, vehicle was able to fly relatively long distances on curvy trails (up to 160\,m), but got stuck when trail was not contrast enough or distracting factors appeared in the image. This problem can be caused by a different \acs{FOV} of used camera, colour rendering, image sensor quality and even season. Therefore, results can be improved by creating a new large dataset with conditions close to the expected and training the network on it. Also, increasing the field of view should help, because more features can be captured by the camera.
+During the training process, neural network showed up to 90\% accuracy on validation. However, this dataset was acquired by other cameras than those used in this thesis. During the experiments, vehicle was able to fly relatively long distances on curvy trails (up to 160\,m), but got stuck when trail was not contrast enough or distracting factors appeared in the image. This problem can be caused by a different \acs{FOV} of used camera, colour rendering, image sensor quality and even season. Therefore, results can be improved by creating a new large dataset with conditions close to the expected and training the network on it. Also, increasing the field of view should help, because more features can be captured by the camera.
 
 Another possible improvement can be usage of a segmentation neural network, it allows to predict also the shape of the future trajectory. However, it may be challenging to distinguish the road from the sides during segmentation, and requires a big manually labeled dataset. Therefore, in this thesis only classification approach was taken.
 

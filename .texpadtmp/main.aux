@@ -46,7 +46,6 @@
 \newacro{DNN}[\AC@hyperlink{DNN}{DNN}]{Deep Neural Network}
 \newacro{SAR}[\AC@hyperlink{SAR}{SAR}]{Search and Rescue}
 \newacro{GPU}[\AC@hyperlink{GPU}{GPU}]{Graphics Processing Unit}
-\acronymused{CNN}
 \citation{keane2013brief}
 \abx@aux@cite{keane2013brief}
 \abx@aux@segm{0}{0}{keane2013brief}
@@ -142,8 +141,8 @@
 \newlabel{sub@fig:class_s}{{(b)}{b}{Subfigure 1 1.5b\relax }{subfigure.1.5.2}{}}
 \newlabel{fig:class_r}{{1.5c}{5}{Subfigure 1 1.5c}{subfigure.1.5.3}{}}
 \newlabel{sub@fig:class_r}{{(c)}{c}{Subfigure 1 1.5c\relax }{subfigure.1.5.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Example images of different classes\relax }}{5}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:classes}{{1.5}{5}{Example images of different classes\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Example images of different classes.\relax }}{5}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:classes}{{1.5}{5}{Example images of different classes.\relax }{figure.caption.6}{}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Class "left".}}}{5}{subfigure.5.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Class "right".}}}{5}{subfigure.5.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Class "straight".}}}{5}{subfigure.5.3}\protected@file@percent }
@@ -157,8 +156,7 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \acronymused{RGB}
-\acronymused{CNN}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}\acs {CNN}}{6}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}CNN}{6}{section.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Convolutions}{6}{subsection.2.1.1}\protected@file@percent }
 \acronymused{CNN}
 \newlabel{Input data}{{2.1}{6}{Convolutions}{equation.2.1.1}{}}
@@ -173,23 +171,25 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.4}Softmax}{8}{subsection.2.1.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Backward propagation of error}{8}{section.2.2}\protected@file@percent }
 \newlabel{backprop}{{2.2}{8}{Backward propagation of error}{section.2.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Loss function}{8}{section.2.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Used neural network architecture.\relax }}{9}{figure.caption.8}\protected@file@percent }
 \newlabel{fig:architecture}{{2.2}{9}{Used neural network architecture.\relax }{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Implementation}{10}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Loss function}{9}{section.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Upstream gradient in convolutional layer.\relax }}{10}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:conv_bp}{{2.3}{10}{Upstream gradient in convolutional layer.\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Implementation}{11}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}System hardware}{10}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Pixhawk flight controller}{10}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}System hardware}{11}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Pixhawk flight controller}{11}{subsection.3.1.1}\protected@file@percent }
 \acronymused{MRS}
 \acronymused{UAV}
 \acronymused{MAV}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Intel NUC companion computer}{10}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Intel NUC companion computer}{11}{subsection.3.1.2}\protected@file@percent }
 \acronymused{MRS}
 \acronymused{ROS}
 \acronymused{ROS}
 \acronymused{USB}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Intel RealSense D435 camera}{10}{subsection.3.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Intel RealSense D435 camera}{11}{subsection.3.1.3}\protected@file@percent }
 \acronymused{RGB}
 \acronymused{FOV}
 \acronymused{IR}
@@ -198,117 +198,116 @@
 \citation{giusti2016machine}
 \abx@aux@cite{giusti2016machine}
 \abx@aux@segm{0}{0}{giusti2016machine}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Used software tools}{11}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Python}{11}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}PyTorch framework}{11}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Used software tools}{12}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Python}{12}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}PyTorch framework}{12}{subsection.3.2.2}\protected@file@percent }
 \acronymused{GPU}
 \acronymused{GPU}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Dataset}{11}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Dataset}{12}{section.3.3}\protected@file@percent }
 \acronymused{CNN}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Neural network code}{11}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Training algorithm}{12}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Program for preparing the dataset}{12}{section.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}Navigation algorithm}{12}{section.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.1}Velocity generation}{12}{subsection.3.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.2}Trajectory generation}{13}{subsection.3.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Neural network code}{12}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Training algorithm}{13}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Program for preparing the dataset}{13}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Navigation algorithm}{13}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.1}Velocity generation}{13}{subsection.3.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.2}Trajectory generation}{14}{subsection.3.6.2}\protected@file@percent }
 \acronymused{MRS}
 \acronymused{ROS}
 \acronymused{UAV}
 \acronymused{MRS}
 \acronymused{UAV}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.3}Filtering of the neural network output}{13}{subsection.3.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Simulation}{15}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6.3}Filtering of the neural network output}{14}{subsection.3.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Simulation}{16}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Software}{15}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Simulation setup}{15}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Software}{16}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Simulation setup}{16}{section.4.2}\protected@file@percent }
 \acronymused{MRS}
 \acronymused{MRS}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Simulation results}{16}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Simulation results}{17}{section.4.3}\protected@file@percent }
 \acronymused{UAV}
-\newlabel{fig:sim_right}{{4.1a}{16}{Subfigure 4 4.1a}{subfigure.4.1.1}{}}
+\newlabel{fig:sim_right}{{4.1a}{17}{Subfigure 4 4.1a}{subfigure.4.1.1}{}}
 \newlabel{sub@fig:sim_right}{{(a)}{a}{Subfigure 4 4.1a\relax }{subfigure.4.1.1}{}}
 \acronymused{UAV}
-\newlabel{fig:sim_straight}{{4.1b}{16}{Subfigure 4 4.1b}{subfigure.4.1.2}{}}
+\newlabel{fig:sim_straight}{{4.1b}{17}{Subfigure 4 4.1b}{subfigure.4.1.2}{}}
 \newlabel{sub@fig:sim_straight}{{(b)}{b}{Subfigure 4 4.1b\relax }{subfigure.4.1.2}{}}
 \acronymused{UAV}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Predictions during simulation.\relax }}{16}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:sim}{{4.1}{16}{Predictions during simulation.\relax }{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Neural network predicts that \acs {UAV} is most likely pointed right relative to the path, when it is actually pointed right. Vehicle turns left.}}}{16}{subfigure.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Prediction "straight" is most likely, \acs {UAV} is pointed straight. Vehicle moves forward.}}}{16}{subfigure.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiment}{17}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Predictions during simulation.\relax }}{17}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:sim}{{4.1}{17}{Predictions during simulation.\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Neural network predicts that \acs {UAV} is most likely pointed right relative to the path, when it is actually pointed right. Vehicle turns left.}}}{17}{subfigure.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Prediction "straight" is most likely, \acs {UAV} is pointed straight. Vehicle moves forward.}}}{17}{subfigure.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiment}{18}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Neural network performance test}{17}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Complete tests on vehicle}{17}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Neural network performance test}{18}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Complete tests on vehicle}{18}{section.5.2}\protected@file@percent }
 \acronymused{MRS}
-\acronymused{UAV}
 \acronymused{FOV}
 \acronymused{UAV}
 \acronymused{FOV}
 \acronymused{UAV}
-\newlabel{fig:nn_1_1}{{5.1a}{18}{Subfigure 5 5.1a}{subfigure.5.1.1}{}}
+\newlabel{fig:nn_1_1}{{5.1a}{19}{Subfigure 5 5.1a}{subfigure.5.1.1}{}}
 \newlabel{sub@fig:nn_1_1}{{(a)}{a}{Subfigure 5 5.1a\relax }{subfigure.5.1.1}{}}
-\newlabel{fig:nn_2_1}{{5.1b}{18}{Subfigure 5 5.1b}{subfigure.5.1.2}{}}
+\newlabel{fig:nn_2_1}{{5.1b}{19}{Subfigure 5 5.1b}{subfigure.5.1.2}{}}
 \newlabel{sub@fig:nn_2_1}{{(b)}{b}{Subfigure 5 5.1b\relax }{subfigure.5.1.2}{}}
-\newlabel{fig:nn_1_2}{{5.1c}{18}{Subfigure 5 5.1c}{subfigure.5.1.3}{}}
+\newlabel{fig:nn_1_2}{{5.1c}{19}{Subfigure 5 5.1c}{subfigure.5.1.3}{}}
 \newlabel{sub@fig:nn_1_2}{{(c)}{c}{Subfigure 5 5.1c\relax }{subfigure.5.1.3}{}}
-\newlabel{fig:nn_2_2}{{5.1d}{18}{Subfigure 5 5.1d}{subfigure.5.1.4}{}}
+\newlabel{fig:nn_2_2}{{5.1d}{19}{Subfigure 5 5.1d}{subfigure.5.1.4}{}}
 \newlabel{sub@fig:nn_2_2}{{(d)}{d}{Subfigure 5 5.1d\relax }{subfigure.5.1.4}{}}
-\newlabel{fig:nn_1_3}{{5.1e}{18}{Subfigure 5 5.1e}{subfigure.5.1.5}{}}
+\newlabel{fig:nn_1_3}{{5.1e}{19}{Subfigure 5 5.1e}{subfigure.5.1.5}{}}
 \newlabel{sub@fig:nn_1_3}{{(e)}{e}{Subfigure 5 5.1e\relax }{subfigure.5.1.5}{}}
-\newlabel{fig:nn_2_3}{{5.1f}{18}{Subfigure 5 5.1f}{subfigure.5.1.6}{}}
+\newlabel{fig:nn_2_3}{{5.1f}{19}{Subfigure 5 5.1f}{subfigure.5.1.6}{}}
 \newlabel{sub@fig:nn_2_3}{{(f)}{f}{Subfigure 5 5.1f\relax }{subfigure.5.1.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Neural network performance test.\relax }}{18}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:test_nn}{{5.1}{18}{Neural network performance test.\relax }{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Camera pointed straight.}}}{18}{subfigure.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Prediction: "straight" is most likely.}}}{18}{subfigure.1.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Camera is pointed left.}}}{18}{subfigure.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Prediction: "left" is most likely.}}}{18}{subfigure.1.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {Camera is pointed right.}}}{18}{subfigure.1.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {Prediction: "right" is most likely.}}}{18}{subfigure.1.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Neural network performance test.\relax }}{19}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:test_nn}{{5.1}{19}{Neural network performance test.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Camera pointed straight.}}}{19}{subfigure.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Prediction: "straight" is most likely.}}}{19}{subfigure.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Camera is pointed left.}}}{19}{subfigure.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Prediction: "left" is most likely.}}}{19}{subfigure.1.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {Camera is pointed right.}}}{19}{subfigure.1.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {Prediction: "right" is most likely.}}}{19}{subfigure.1.6}\protected@file@percent }
 \acronymused{UAV}
-\newlabel{fig:path_1}{{5.2a}{19}{Subfigure 5 5.2a}{subfigure.5.2.1}{}}
+\newlabel{fig:path_1}{{5.2a}{20}{Subfigure 5 5.2a}{subfigure.5.2.1}{}}
 \newlabel{sub@fig:path_1}{{(a)}{a}{Subfigure 5 5.2a\relax }{subfigure.5.2.1}{}}
-\newlabel{fig:path_2}{{5.2b}{19}{Subfigure 5 5.2b}{subfigure.5.2.2}{}}
+\newlabel{fig:path_2}{{5.2b}{20}{Subfigure 5 5.2b}{subfigure.5.2.2}{}}
 \newlabel{sub@fig:path_2}{{(b)}{b}{Subfigure 5 5.2b\relax }{subfigure.5.2.2}{}}
-\newlabel{fig:path_3}{{5.2c}{19}{Subfigure 5 5.2c}{subfigure.5.2.3}{}}
+\newlabel{fig:path_3}{{5.2c}{20}{Subfigure 5 5.2c}{subfigure.5.2.3}{}}
 \newlabel{sub@fig:path_3}{{(c)}{c}{Subfigure 5 5.2c\relax }{subfigure.5.2.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Three trails used for testing\relax }}{19}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:trails}{{5.2}{19}{Three trails used for testing\relax }{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Trail 1.}}}{19}{subfigure.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Trail 2.}}}{19}{subfigure.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Trail 3.}}}{19}{subfigure.2.3}\protected@file@percent }
-\newlabel{fig:avoid_1}{{5.3a}{20}{Subfigure 5 5.3a}{subfigure.5.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The three trails used for testing.\relax }}{20}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:trails}{{5.2}{20}{The three trails used for testing.\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Trail 1.}}}{20}{subfigure.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Trail 2.}}}{20}{subfigure.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Trail 3.}}}{20}{subfigure.2.3}\protected@file@percent }
+\newlabel{fig:avoid_1}{{5.3a}{21}{Subfigure 5 5.3a}{subfigure.5.3.1}{}}
 \newlabel{sub@fig:avoid_1}{{(a)}{a}{Subfigure 5 5.3a\relax }{subfigure.5.3.1}{}}
 \acronymused{UAV}
-\newlabel{fig:satellite_1}{{5.3b}{20}{Subfigure 5 5.3b}{subfigure.5.3.2}{}}
+\newlabel{fig:satellite_1}{{5.3b}{21}{Subfigure 5 5.3b}{subfigure.5.3.2}{}}
 \newlabel{sub@fig:satellite_1}{{(b)}{b}{Subfigure 5 5.3b\relax }{subfigure.5.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces First experiment.\relax }}{20}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:first_trail_photos}{{5.3}{20}{First experiment.\relax }{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} avoiding an obstacle.}}}{20}{subfigure.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image.}}}{20}{subfigure.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The first experiment.\relax }}{21}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:first_trail_photos}{{5.3}{21}{The first experiment.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} avoiding an obstacle.}}}{21}{subfigure.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image from Google Maps.}}}{21}{subfigure.3.2}\protected@file@percent }
 \acronymused{CNN}
 \acronymused{UAV}
-\newlabel{fig:confused_2}{{5.4a}{21}{Subfigure 5 5.4a}{subfigure.5.4.1}{}}
+\newlabel{fig:confused_2}{{5.4a}{22}{Subfigure 5 5.4a}{subfigure.5.4.1}{}}
 \newlabel{sub@fig:confused_2}{{(a)}{a}{Subfigure 5 5.4a\relax }{subfigure.5.4.1}{}}
 \acronymused{UAV}
-\newlabel{fig:satellite_2}{{5.4b}{21}{Subfigure 5 5.4b}{subfigure.5.4.2}{}}
+\newlabel{fig:satellite_2}{{5.4b}{22}{Subfigure 5 5.4b}{subfigure.5.4.2}{}}
 \newlabel{sub@fig:satellite_2}{{(b)}{b}{Subfigure 5 5.4b\relax }{subfigure.5.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Second experiment.\relax }}{21}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:second_trail_photos}{{5.4}{21}{Second experiment.\relax }{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} got confused by a ditch, photo before recovery.}}}{21}{subfigure.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image.}}}{21}{subfigure.4.2}\protected@file@percent }
-\newlabel{fig:fail_log_3}{{5.5a}{22}{Subfigure 5 5.5a}{subfigure.5.5.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces The second experiment.\relax }}{22}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:second_trail_photos}{{5.4}{22}{The second experiment.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} got confused by a ditch, photo before recovery.}}}{22}{subfigure.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image from Google Maps.}}}{22}{subfigure.4.2}\protected@file@percent }
+\newlabel{fig:fail_log_3}{{5.5a}{23}{Subfigure 5 5.5a}{subfigure.5.5.1}{}}
 \newlabel{sub@fig:fail_log_3}{{(a)}{a}{Subfigure 5 5.5a\relax }{subfigure.5.5.1}{}}
 \acronymused{UAV}
-\newlabel{fig:satellite_3}{{5.5b}{22}{Subfigure 5 5.5b}{subfigure.5.5.2}{}}
+\newlabel{fig:satellite_3}{{5.5b}{23}{Subfigure 5 5.5b}{subfigure.5.5.2}{}}
 \newlabel{sub@fig:satellite_3}{{(b)}{b}{Subfigure 5 5.5b\relax }{subfigure.5.5.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Third experiment.\relax }}{22}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:third_trail_photos}{{5.5}{22}{Third experiment.\relax }{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} got confused by the log.}}}{22}{subfigure.5.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image.}}}{22}{subfigure.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The third experiment.\relax }}{23}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:third_trail_photos}{{5.5}{23}{The third experiment.\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\acs {UAV} got confused by the log.}}}{23}{subfigure.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Satellite image from Google Maps.}}}{23}{subfigure.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \acronymused{FOV}
@@ -316,15 +315,15 @@
 \acronymused{UAV}
 \acronymused{MRS}
 \acronymused{UAV}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}References}{24}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}References}{25}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix A}{25}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix A}{26}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{LastPage}{{}{25}{}{page.25}{}}
-\xdef\lastpage@lastpage{25}
-\xdef\lastpage@lastpageHy{25}
+\newlabel{LastPage}{{}{26}{}{page.26}{}}
+\xdef\lastpage@lastpage{26}
+\xdef\lastpage@lastpageHy{26}
 \abx@aux@read@bbl@mdfivesum{5193326B165666915C0082720786F092}
 \abx@aux@refcontextdefaultsdone
 \abx@aux@defaultrefcontext{0}{li2021survey}{ydnt/global//global/global}
@@ -351,4 +350,4 @@
 \abx@aux@defaultlabelprefix{0}{santana2013tracking}{}
 \abx@aux@defaultlabelprefix{0}{krizhevsky2012imagenet}{}
 \abx@aux@defaultlabelprefix{0}{batavia1999driver}{}
-\gdef \@abspage@last{33}
+\gdef \@abspage@last{34}
