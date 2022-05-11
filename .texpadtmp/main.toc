@@ -5,33 +5,32 @@
 \contentsline {section}{\numberline {1.2}Convolutional neural networks}{2}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Segmentation networks}{2}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Recurrent networks}{2}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Generative adversarial networks}{2}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}Generative adversarial networks}{3}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Classification networks}{3}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1.3}Trail following}{3}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Methodology}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}CNN}{6}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Convolutions}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Hyperbolic tangent}{7}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Max-pooling}{7}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Softmax}{8}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Backward propagation of error}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Loss function}{9}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Implementation}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}System hardware}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Pixhawk flight controller}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Intel NUC companion computer}{11}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Intel RealSense D435 camera}{11}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Used software tools}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Python}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}PyTorch framework}{12}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Dataset}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Neural network code}{12}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Training algorithm}{13}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Program for preparing the dataset}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Navigation algorithm}{13}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Velocity generation}{13}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Trajectory generation}{14}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Filtering of the neural network output}{14}{subsection.3.6.3}%
+\contentsline {chapter}{\numberline {2}Methodology}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Convolutional Neural Network}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Convolutions}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Hyperbolic tangent}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Max-pooling}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Softmax}{9}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Backward propagation of error}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Loss function}{11}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Implementation}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}System hardware}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Pixhawk flight controller}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Intel NUC companion computer}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Intel RealSense D435 camera}{12}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Used software tools}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Python}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}PyTorch framework}{13}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Dataset}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Neural network code}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Training algorithm}{14}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Navigation algorithm}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Velocity generation}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Path generation}{14}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Filtering of the neural network output}{15}{subsection.3.5.3}%
 \contentsline {chapter}{\numberline {4}Simulation}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Software}{16}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Simulation setup}{16}{section.4.2}%
@@ -39,6 +38,6 @@
 \contentsline {chapter}{\numberline {5}Experiment}{18}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Neural network performance test}{18}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Complete tests on vehicle}{18}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}%
-\contentsline {chapter}{\numberline {7}References}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Appendix A}{26}{appendix.A}%
+\contentsline {chapter}{\numberline {6}Conclusion}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {7}References}{26}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Appendix A}{27}{appendix.A}%
