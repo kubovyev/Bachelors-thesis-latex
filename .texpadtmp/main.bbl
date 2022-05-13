@@ -175,6 +175,215 @@
     \field{year}{2020}
   \endentry
 
+  \entry{abushahma2019comparative}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=ARIH}{%
+         family={Abushahma},
+         familyi={A\bibinitperiod},
+         given={Rema Ibrahim\bibnamedelima Hamad},
+         giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=AMA}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={Musab\bibnamedelima AM},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ARNA}{%
+         family={Abd\bibnamedelima Rahman},
+         familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Nur\bibnamedelima Adilah},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ASOI}{%
+         family={Al-Sanjary},
+         familyi={A\bibinithyphendelim S\bibinitperiod},
+         given={Omar\bibnamedelima Ismael},
+         giveni={O\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ARIHAMAARNA+1}
+    \strng{fullhash}{ARIHAMAARNAASOI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2019 IEEE 15th International Colloquium on Signal
+  Processing \& Its Applications (CSPA)}
+    \field{pages}{114\bibrangedash 119}
+    \field{title}{Comparative features of unmanned aerial vehicle (uav) for
+  border protection of libya: a review}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lin2019evaluation}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LYC}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Yi-Chun},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CYT}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Yi-Ting},
+         giveni={Y\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Tian},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ravi},
+         familyi={R\bibinitperiod},
+         given={Radhika},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HSM}{%
+         family={Hasheminasab},
+         familyi={H\bibinitperiod},
+         given={Seyyed\bibnamedelima Meghdad},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FJE}{%
+         family={Flatt},
+         familyi={F\bibinitperiod},
+         given={John\bibnamedelima Evan},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Troy},
+         familyi={T\bibinitperiod},
+         given={Cary},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Habib},
+         familyi={H\bibinitperiod},
+         given={Ayman},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \strng{namehash}{LYCCYTZT+1}
+    \strng{fullhash}{LYCCYTZTRRHSMFJETCHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{24}
+    \field{pages}{2893}
+    \field{title}{Evaluation of UAV LiDAR for mapping coastal environments}
+    \field{volume}{11}
+    \field{journaltitle}{Remote Sensing}
+    \field{year}{2019}
+  \endentry
+
+  \entry{yaqoob2019autonomous}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YI}{%
+         family={Yaqoob},
+         familyi={Y\bibinitperiod},
+         given={Ibrar},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KLU}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Latif\bibnamedelima U},
+         giveni={L\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=KSA}{%
+         family={Kazmi},
+         familyi={K\bibinitperiod},
+         given={SM\bibnamedelima Ahsan},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imran},
+         familyi={I\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Guizani},
+         familyi={G\bibinitperiod},
+         given={Nadra},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HCS}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Choong\bibnamedelima Seon},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{YIKLUKSA+1}
+    \strng{fullhash}{YIKLUKSAIMGNHCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{174\bibrangedash 181}
+    \field{title}{Autonomous driving cars in smart cities: Recent advances,
+  requirements, and challenges}
+    \field{volume}{34}
+    \field{journaltitle}{IEEE Network}
+    \field{year}{2019}
+  \endentry
+
+  \entry{goyal2018deepzip}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GM}{%
+         family={Goyal},
+         familyi={G\bibinitperiod},
+         given={Mohit},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tatwawadi},
+         familyi={T\bibinitperiod},
+         given={Kedar},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chandak},
+         familyi={C\bibinitperiod},
+         given={Shubham},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OI}{%
+         family={Ochoa},
+         familyi={O\bibinitperiod},
+         given={Idoia},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMTKCS+1}
+    \strng{fullhash}{GMTKCSOI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Deepzip: Lossless data compression using recurrent neural
+  networks}
+    \field{journaltitle}{arXiv preprint arXiv:1811.08162}
+    \field{year}{2018}
+  \endentry
+
   \entry{maciel2018extending}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=MPBG}{%
@@ -210,6 +419,225 @@
     \field{title}{Extending deep neural network trail navigation for unmanned
   aerial vehicle operation within the forest canopy}
     \field{year}{2018}
+  \endentry
+
+  \entry{yue2018comparison}{article}{}
+    \name{author}{8}{}{%
+      {{hash=YJ}{%
+         family={Yue},
+         familyi={Y\bibinitperiod},
+         given={Jibo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Haikuan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JX}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Xiuliang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Huanhuan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zhenhai},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Chengquan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YG}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Guijun},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TQ}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Qingjiu},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \strng{namehash}{YJFHJX+1}
+    \strng{fullhash}{YJFHJXYHLZZCYGTQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{7}
+    \field{pages}{1138}
+    \field{title}{A comparison of crop parameters estimation using images from
+  UAV-mounted snapshot hyperspectral sensor and high-definition digital camera}
+    \field{volume}{10}
+    \field{journaltitle}{Remote Sensing}
+    \field{year}{2018}
+  \endentry
+
+  \entry{zhou2018unet++}{incollection}{}
+    \name{author}{4}{}{%
+      {{hash=ZZ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Zongwei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=RSMM}{%
+         family={Rahman\bibnamedelima Siddiquee},
+         familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Md\bibnamedelima Mahfuzur},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tajbakhsh},
+         familyi={T\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Jianming},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ZZRSMMTN+1}
+    \strng{fullhash}{ZZRSMMTNLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Deep learning in medical image analysis and multimodal
+  learning for clinical decision support}
+    \field{pages}{3\bibrangedash 11}
+    \field{title}{Unet++: A nested u-net architecture for medical image
+  segmentation}
+    \field{year}{2018}
+  \endentry
+
+  \entry{paredes2017multispectral}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=PJA}{%
+         family={Paredes},
+         familyi={P\bibinitperiod},
+         given={Juan\bibnamedelima Augusto},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gonz{\'a}lez},
+         familyi={G\bibinitperiod},
+         given={Jessenia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Saito},
+         familyi={S\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Flores},
+         familyi={F\bibinitperiod},
+         given={Andr{\'e}s},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{PJAGJSC+1}
+    \strng{fullhash}{PJAGJSCFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2017 First IEEE International Symposium of Geoscience and
+  Remote Sensing (GRSS-CHILE)}
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{Multispectral imaging system with UAV integration
+  capabilities for crop analysis}
+    \field{year}{2017}
+  \endentry
+
+  \entry{pedrozo2017swiss}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PS}{%
+         family={Pedrozo},
+         familyi={P\bibinitperiod},
+         given={Silvana},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Copernicus GmbH}%
+    }
+    \strng{namehash}{PS1}
+    \strng{fullhash}{PS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{97\bibrangedash 107}
+    \field{title}{Swiss military drones and the border space: a critical study
+  of the surveillance exercised by border guards}
+    \field{volume}{72}
+    \field{journaltitle}{Geographica Helvetica}
+    \field{year}{2017}
+  \endentry
+
+  \entry{sharma2017activation}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Sagar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Athaiya},
+         familyi={A\bibinitperiod},
+         given={Anidhya},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSSSAA1}
+    \strng{fullhash}{SSSSAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{12}
+    \field{pages}{310\bibrangedash 316}
+    \field{title}{Activation functions in neural networks}
+    \field{volume}{6}
+    \field{journaltitle}{towards data science}
+    \field{year}{2017}
   \endentry
 
   \entry{smolyanskiy2017toward}{inproceedings}{}
@@ -253,6 +681,88 @@
     \field{pages}{4241\bibrangedash 4247}
     \field{title}{Toward low-flying autonomous MAV trail navigation using deep
   neural networks for environmental awareness}
+    \field{year}{2017}
+  \endentry
+
+  \entry{yuan2017fire}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=YC}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Chi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhixiang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Youmin},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{YCLZZY1}
+    \strng{fullhash}{YCLZZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2017 International Conference on Unmanned Aircraft
+  Systems (ICUAS)}
+    \field{pages}{567\bibrangedash 572}
+    \field{title}{Fire detection using infrared images for UAV-based forest
+  fire surveillance}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zhang2017uav}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Xiuxiao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=FY}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Shiyu},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \strng{namehash}{ZYYXFY+1}
+    \strng{fullhash}{ZYYXFYCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{14}
+    \field{title}{UAV low altitude photogrammetry for power line inspection}
+    \field{volume}{6}
+    \field{journaltitle}{ISPRS International Journal of GEO-information}
     \field{year}{2017}
   \endentry
 
@@ -343,6 +853,121 @@
     \field{year}{2016}
   \endentry
 
+  \entry{gomez2016neural}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=GLR}{%
+         family={G{\'o}mez},
+         familyi={G\bibinitperiod},
+         given={Laura\bibnamedelima Rodr{\'\i}guez},
+         giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WHJ}{%
+         family={Wunderlich},
+         familyi={W\bibinitperiod},
+         given={Hans-Joachim},
+         giveni={H\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{GLRWHJ1}
+    \strng{fullhash}{GLRWHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2016 IEEE 25th Asian Test Symposium (ATS)}
+    \field{pages}{144\bibrangedash 149}
+    \field{title}{A neural-network-based fault classifier}
+    \field{year}{2016}
+  \endentry
+
+  \entry{chretien2015wildlife}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CLP}{%
+         family={Chr{\'e}tien},
+         familyi={C\bibinitperiod},
+         given={L-P},
+         giveni={L\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Th{\'e}au},
+         familyi={T\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=MP}{%
+         family={M{\'e}nard},
+         familyi={M\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \strng{namehash}{CLPTJMP1}
+    \strng{fullhash}{CLPTJMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Wildlife multispecies remote sensing using visible and
+  thermal infrared imagery acquired from an unmanned aerial vehicle (UAV).}
+    \field{volume}{40}
+    \field{journaltitle}{International Archives of the Photogrammetry, Remote
+  Sensing \& Spatial Information Sciences}
+    \field{year}{2015}
+  \endentry
+
+  \entry{lhoest2015many}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Lhoest},
+         familyi={L\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Linchant},
+         familyi={L\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=QS}{%
+         family={Quevauvillers},
+         familyi={Q\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vermeulen},
+         familyi={V\bibinitperiod},
+         given={C{\'e}dric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lejeune},
+         familyi={L\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Copernicus}%
+    }
+    \strng{namehash}{LSLJQS+1}
+    \strng{fullhash}{LSLJQSVCLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{How many hippos (HOMHIP): algorithm for automatic counts of
+  animals with infra-red thermal imagery from UAV}
+    \field{volume}{40}
+    \field{journaltitle}{International Archives of the Photogrammetry, Remote
+  Sensing and Spatial Information Sciences}
+    \field{year}{2015}
+  \endentry
+
   \entry{ronneberger2015u}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=RO}{%
@@ -379,6 +1004,82 @@
     \field{title}{U-net: Convolutional networks for biomedical image
   segmentation}
     \field{year}{2015}
+  \endentry
+
+  \entry{wu2015typical}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jinfang},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=XF}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Fanjiang},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{WHZHZJ+1}
+    \strng{fullhash}{WHZHZJXF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2015 IEEE International Conference on Systems, Man, and
+  Cybernetics}
+    \field{pages}{2956\bibrangedash 2961}
+    \field{title}{Typical target detection in satellite images based on
+  convolutional neural networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{nex2014uav}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NF}{%
+         family={Nex},
+         familyi={N\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Remondino},
+         familyi={R\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{NFRF1}
+    \strng{fullhash}{NFRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 15}
+    \field{title}{UAV for 3D mapping applications: a review}
+    \field{volume}{6}
+    \field{journaltitle}{Applied geomatics}
+    \field{year}{2014}
   \endentry
 
   \entry{yu2014mixed}{inproceedings}{}
@@ -422,6 +1123,44 @@
     \field{pages}{364\bibrangedash 375}
     \field{title}{Mixed pooling for convolutional neural networks}
     \field{year}{2014}
+  \endentry
+
+  \entry{erdos2013experimental}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ED}{%
+         family={Erdos},
+         familyi={E\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Erdos},
+         familyi={E\bibinitperiod},
+         given={Abraham},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WSE}{%
+         family={Watkins},
+         familyi={W\bibinitperiod},
+         given={Steve\bibnamedelima E},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{EDEAWSE1}
+    \strng{fullhash}{EDEAWSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{5}
+    \field{pages}{32\bibrangedash 37}
+    \field{title}{An experimental UAV system for search and rescue challenge}
+    \field{volume}{28}
+    \field{journaltitle}{IEEE Aerospace and Electronic Systems Magazine}
+    \field{year}{2013}
   \endentry
 
   \entry{keane2013brief}{article}{}
@@ -535,6 +1274,223 @@
     \field{volume}{25}
     \field{journaltitle}{Advances in neural information processing systems}
     \field{year}{2012}
+  \endentry
+
+  \entry{quigley2009ros}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{8}{}{%
+      {{hash=QM}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={Morgan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Conley},
+         familyi={C\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gerkey},
+         familyi={G\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Faust},
+         familyi={F\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Foote},
+         familyi={F\bibinitperiod},
+         given={Tully},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Leibs},
+         familyi={L\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wheeler},
+         familyi={W\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NAY}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Andrew\bibnamedelima Y},
+         giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Kobe, Japan}%
+    }
+    \strng{namehash}{QMCKGB+1}
+    \strng{fullhash}{QMCKGBFJFTLJWRNAY+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{ICRA workshop on open source software}
+    \field{number}{3.2}
+    \field{pages}{5}
+    \field{title}{ROS: an open-source Robot Operating System}
+    \field{volume}{3}
+    \field{year}{2009}
+  \endentry
+
+  \entry{goodrich2008supporting}{article}{}
+    \name{author}{7}{}{%
+      {{hash=GMA}{%
+         family={Goodrich},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MBS}{%
+         family={Morse},
+         familyi={M\bibinitperiod},
+         given={Bryan\bibnamedelima S},
+         giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gerhardt},
+         familyi={G\bibinitperiod},
+         given={Damon},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CJL}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={Joseph\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=QM}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={Morgan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AJA}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={Julie\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Humphrey},
+         familyi={H\bibinitperiod},
+         given={Curtis},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{GMAMBSGD+1}
+    \strng{fullhash}{GMAMBSGDCJLQMAJAHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1-2}
+    \field{pages}{89\bibrangedash 110}
+    \field{title}{Supporting wilderness search and rescue using a
+  camera-equipped mini UAV}
+    \field{volume}{25}
+    \field{journaltitle}{Journal of Field Robotics}
+    \field{year}{2008}
+  \endentry
+
+  \entry{merino2005cooperative}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=ML}{%
+         family={Merino},
+         familyi={M\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caballero},
+         familyi={C\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MdDJ}{%
+         prefix={Martinez-de},
+         prefixi={M\bibinithyphendelim d\bibinitperiod},
+         family={Dios},
+         familyi={D\bibinitperiod},
+         given={JR},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Ollero},
+         familyi={O\bibinitperiod},
+         given={An{\'\i}bal},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MLCFDJMd+1}
+    \strng{fullhash}{MLCFDJMdOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Proceedings of the 2005 IEEE international conference on
+  robotics and automation}
+    \field{pages}{1884\bibrangedash 1889}
+    \field{title}{Cooperative fire detection using unmanned aerial vehicles}
+    \field{year}{2005}
+  \endentry
+
+  \entry{girard2004border}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GAR}{%
+         family={Girard},
+         familyi={G\bibinitperiod},
+         given={Anouck\bibnamedelima R},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HAS}{%
+         family={Howell},
+         familyi={H\bibinitperiod},
+         given={Adam\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HJK}{%
+         family={Hedrick},
+         familyi={H\bibinitperiod},
+         given={J\bibnamedelima Karl},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{GARHASHJK1}
+    \strng{fullhash}{GARHASHJK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2004 43rd IEEE conference on decision and control
+  (CDC)(IEEE Cat. No. 04CH37601)}
+    \field{pages}{620\bibrangedash 625}
+    \field{title}{Border patrol and surveillance missions using multiple
+  unmanned air vehicles}
+    \field{volume}{1}
+    \field{year}{2004}
   \endentry
 
   \entry{batavia1999driver}{book}{}

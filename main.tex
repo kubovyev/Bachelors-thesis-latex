@@ -39,13 +39,7 @@
 % set up the page style for the "intro" pages
 \pagestyle{plain}
 
-%% --------------------------------------------------------------
-%% |                       Acknowledgments                      |
-%% --------------------------------------------------------------
 
-\conditionalClearPage
-
-\input{src/acknowledgments.tex}
 
 %% --------------------------------------------------------------
 %% |                         Assignment                         |
@@ -54,6 +48,27 @@
 \conditionalClearPage
 
 \includepdf{src/assignment.pdf}
+
+%% --------------------------------------------------------------
+%% |                       Acknowledgments                      |
+%% --------------------------------------------------------------
+
+\conditionalClearPage
+
+\input{src/acknowledgments.tex}
+
+
+%% --------------------------------------------------------------
+%% |                         Statement                          |
+%% --------------------------------------------------------------
+
+
+\conditionalClearPage
+\vspace{15cm}
+\input{src/statement.tex}
+
+
+
 
 %% --------------------------------------------------------------
 %% |                          Abstracts                         |
@@ -107,7 +122,7 @@
 \section{Unmanned Aerial Vehicles}
 Flying robots, also called \acs{UAV}s have been used since the first half of the 20th century \cite{keane2013brief}. They were still controlled by a human operator, but allowed for dangerous tasks to be performed remotely, like aerial target practices. Originally designed for military purposes, they evolved into a vast industry. Since that time, electronic hardware has become much more compact, power-efficient, cheap and advanced. Also, aircraft designs have strongly evolved after decades of research, battery power improved, and software got more advanced. Nowadays, all these factors allow for a wide usage of compact and relatively inexpensive vehicles in many industries and research. 
 
-\acs{UAV}s can be equipped with different payloads and sensors, depending on their task (\reffig{fig:firefighter}). For example, thermal cameras are used for border control, detecting animals in wildlife, or forest fires. \acs{LiDAR}s can be used for 3D mapping of a designated area, for navigation in an obstructed environment. Digital cameras are utilised for crops analysis, area mapping, surveillance, monitoring of different constructions or power lines. 
+\acs{UAV}s can be equipped with different payloads and sensors, depending on their task (\reffig{fig:firefighter}). For example, thermal cameras are used for border control \cite{abushahma2019comparative, pedrozo2017swiss, girard2004border}, detecting animals in wildlife \cite{chretien2015wildlife, lhoest2015many}, or forest fires \cite{yuan2017fire, merino2005cooperative}. \acs{LiDAR}s can be used for 3D mapping of a designated area \cite{lin2019evaluation}, for navigation in an obstructed environment. Digital cameras are utilised for crops analysis \cite{paredes2017multispectral, yue2018comparison}, area mapping \cite{nex2014uav}, surveillance \cite{girard2004border}, monitoring of different constructions or power lines \cite{zhang2017uav}. 
 
 
 \begin{figure}[!h]
@@ -119,14 +134,14 @@ Flying robots, also called \acs{UAV}s have been used since the first half of the
 \end{figure}
 
 
-\acs{UAV}s are also important for \ac{SAR} missions. Benefits of using them in such operations is that these vehicles are usually portable, have small deployment time and generally require only minimal qualification to operate them, thanks to flight computers with advanced software. They can be used instead of human teams, reducing the risk for their life or health in dangerous environments. \acs{UAV}s may be also cheaper than alternatives, especially manned aircraft, and faster than rescue teams or ground vehicles. They are usually not only less expensive, but also provide data logging from all sensors, including \acs{GPS} and associated image data from high resolution cameras. This data can be used even for later review. For \acs{SAR} missions, typically two types of \acs{UAV}s are used: fixed-wing aircraft and multi-rotor helicopters. The first ones provide higher speed, flight time, but are less agile and take longer time to take off and land the vehicle. Multi-rotors have the ability to hover, fly close to the ground, in buildings, caves and other complex terrains. In this thesis, a multi-rotor \acs{MAV} will be used as an airframe. 
+\acs{UAV}s are also important for \ac{SAR} missions. Benefits of using them in such operations is that these vehicles are usually portable, have small deployment time and generally require only minimal qualification to operate them, thanks to flight computers with advanced software \cite{erdos2013experimental, goodrich2008supporting}. They can be used instead of human teams, reducing the risk for their life or health in dangerous environments. \acs{UAV}s may be also cheaper than alternatives, especially manned aircraft, and faster than rescue teams or ground vehicles. They are usually not only less expensive, but also provide data logging from all sensors, including \acs{GPS} and associated image data from high resolution cameras. This data can be used even for later review. For \acs{SAR} missions, typically two types of \acs{UAV}s are used: fixed-wing aircraft and multi-rotor helicopters. The first ones provide higher speed, flight time, but are less agile and take longer time to take off and land the vehicle. Multi-rotors have the ability to hover, fly close to the ground, in buildings, caves and other complex terrains. In this thesis, a multi-rotor \acs{MAV} will be used as an airframe. 
 
 
 \section{Convolutional neural networks}
 
 Neural networks (also called artificial neural networks) are algorithms, whose design was inspired by biological neural networks in human and animal brains. Their structure consists of nodes called neurons, and connections between them. Every connection has its weight. Neurons are grouped into layers, each layer has its unique number of them. Neurons which receive value (stimuli) on input from outside of the network are input neurons. Those which receive values from other neurons, process this data, and output the result to other neurons are hidden neurons. Those which output the result outside the network are called output neurons. The mentioned weights of connections between the neurons can be adjusted through a learning process. During learning, a network learns to identify needed templates in the input and produce a correct decision according to the task. 
 
-Convolutional neural networks have been experiencing tremendous growth during the last 10 years, allowing for many previously unsolved problems to be tackled \cite{li2021survey}. They are used in military, healthcare, aerospace, social media, science and other applications. This approach allowed for faster and more accurate analysis of many diseases even on early stages, using measurements performed on the patient, which are then fed to a neural network. In aerospace and automotive engineering neural networks are often used as component fault detectors and for improved guidance systems. In electronics their capabilities help to expose failures when producing the chips, synthesise voice, compress data and solve many other tasks. In military they help to identify hostile objects or enemies. 
+Convolutional neural networks have been experiencing tremendous growth during the last 10 years, allowing for many previously unsolved problems to be tackled \cite{li2021survey}. They are used in military, healthcare, aerospace, social media, science and other applications. This approach allowed for faster and more accurate analysis of many diseases even on early stages \cite{zhou2018unet++}, using measurements performed on the patient, which are then fed to a neural network. In aerospace and automotive engineering neural networks are often used as component fault detectors and for improved guidance systems \cite{yaqoob2019autonomous}. In electronics their capabilities help to expose failures when producing the chips, synthesise voice, compress data and solve many other tasks \cite{gomez2016neural, goyal2018deepzip}. In military they help to identify hostile objects or enemies \cite{wu2015typical}. 
 
 
 There are different types of neural networks. Several examples are presented in this chapter.
@@ -186,7 +201,7 @@ Algorithms solving related problems like lane-following, lane-departure and lane
 
 One of the first effectively solved by neural networks but still topical problems is classification. Neural networks are able to learn and then identify features corresponding to pre-defined classes and combinations of those features \cite{krizhevsky2012imagenet}. This makes it possible to effectively classify which class an image belongs to. 
 
-Treating the trail following task as a classification problem is a different approach that tackles it. For this approach, classes like "Left", "Right" and "Straight" can be introduced \cite{giusti2016machine}. It allows to estimate the current direction of a vehicle, given the probabilities of these classes and to plan the trajectory of the \acs{MAV} accordingly. 
+Treating the trail following task as a classification problem is a different approach that tackles it. For this approach, classes like "Left", "Right" and "Straight" can be introduced \cite{giusti2016machine} (\reffig{fig:classes}). It allows to estimate the current direction of a vehicle, given the probabilities of these classes and to plan the trajectory of the \acs{MAV} accordingly. 
 
 
 \begin{figure}[!h]
@@ -281,7 +296,7 @@ where kernel has $m$ rows and $n$ columns, $i$ runs from 1 to $M-m+1$, $j$ runs 
 
 \subsection{Hyperbolic tangent}
 
-For a neural network to not act as a linear classifier, a nonlinearity should be introduced in its hidden layers. It allows the network to solve more complex tasks and increase its performance. It is also a nature-inspired approach. Nonlinearity is introduced using nonlinear activation layers, added after each convolutional layer. The most popular activation functions are Rectified Linear Unit (ReLU), Leaky ReLU, Sigmoid and Hyperbolic Tangent. The last one is used in this thesis. Hyperbolic Tangent has a very similar shape to the Sigmoid and also maps the output only to the range of [-1, 1] (\reffig{fig:htangent}). It is calculated using the following equation:
+For a neural network to not act as a linear classifier, a nonlinearity should be introduced in its hidden layers \cite{sharma2017activation}. It allows the network to solve more complex tasks and increase its performance. It is also a nature-inspired approach. Nonlinearity is introduced using nonlinear activation layers, added after each convolutional layer. The most popular activation functions are Rectified Linear Unit (ReLU), Leaky ReLU, Sigmoid and Hyperbolic Tangent. The last one is used in this thesis. Hyperbolic Tangent has a very similar shape to the Sigmoid and also maps the output only to the range of [-1, 1] (\reffig{fig:htangent}). It is calculated using the following equation:
 \begin{equation}
 	\textrm{tanh}(x) = \frac{e^x-e^{-x}}{e^x+e^{-x}}\,,
 \end{equation}
@@ -322,7 +337,7 @@ Backward propagation is a way to calculate the gradient $\frac{\partial J}{\part
 
 The first part of backpropagation is a forward pass. Given the input data and the weights, output of the neural network is calculated and compared with ground truth through the loss function. Then, a backward pass starts. Partial derivatives are calculated sequentially through each layer starting from the last one and after multiplication give the total gradient $\frac{\partial J}{\partial \textbf{w}}$\,.
 
-The architecture used in this thesis consists of convolutional layers, max-pooling layers, a hyperbolic tangent activation function and fully connected layers. Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. During backpropagation, the gradient is only propagated to the maximal input, the remaining non-maximal inputs have a zero gradient. The derivative of the hyperbolic tangent is $\frac{d\textrm{tanh}(x)}{dx} = 1-\textrm{tanh}(x)^2$. In the convolutional layer, back propagation is the convolution of the input feature map with the upstream gradient (\reffig{fig:conv_bp}). In the figure, $\gamma(y)$ is any function, for example the activation function. In this case, backpropagation through the convolution will be:
+The architecture used in this thesis consists of convolutional layers, max-pooling layers, a hyperbolic tangent activation function and fully connected layers (\reffig{fig:architecture}). Max-pooling chooses one input with the maximum value and feeds it directly to the output, other inputs are ignored. It doesn't have learnable parameters affecting the gradient. During backpropagation, the gradient is only propagated to the maximal input, the remaining non-maximal inputs have a zero gradient. The derivative of the hyperbolic tangent is $\frac{d\textrm{tanh}(x)}{dx} = 1-\textrm{tanh}(x)^2$. In the convolutional layer, back propagation is the convolution of the input feature map with the upstream gradient (\reffig{fig:conv_bp}). In the figure, $\gamma(y)$ is any function, for example the activation function. In this case, backpropagation through the convolution will be:
 \begin{equation}
 \begin{aligned}
 	\frac{\partial \gamma}{\partial w_{11}} = \frac{\partial\gamma}{\partial y_{11}} x_{11} + \frac{\partial\gamma}{\partial y_{12}} x_{12} + \frac{\partial\gamma}{\partial y_{21}} x_{21} + \frac{\partial\gamma}{\partial y_{22}} x_{22}\,, \\
@@ -371,7 +386,14 @@ where $n$ is the number of classes, $p(x)$ is the desired probability of the cla
 
 \section{System hardware}
 
-TODO: system image/scheme
+Main hardware elements are shown on the \reffig{fig:system}. 
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{./fig/photos/system.pdf}
+  \caption{Scheme of the employed system.}
+  \label{fig:system}
+\end{figure}
 
 \subsection{Pixhawk flight controller}
 
@@ -387,17 +409,6 @@ NUC is a compact high-performance computer, capable of running demanding AI and 
 The D435 is a powerful camera capable of taking normal \acs{RGB} pictures as well as depth images. It has a wide \acs{FOV}, which is perfect for robotic applications. Also, its stereo imagers feature global shutter, which is important in low-light conditions or during fast movements. The camera consists of 4 modules: a right imager, an \acs{IR} projector, a left imager and an \acs{RGB} module. However, for this thesis only the \acs{RGB} module will be used. Its sensor has a resolution of 2\,MP and produces $1920\times1080$ images at the frame rate of 30 frames per second.
 
 
-\section{Used software tools}
-
-\subsection{Python}
-
-I have chosen the Python programming language for this task. It is a high-level language with simple syntax, that features high user-readability and supports object-oriented approach. It is dynamically-typed and offers garbage collection feature. Thanks to these properties, it is considered to be one of the easiest programming languages to use. However, algorithms, written purely in Python are usually inefficient compared to the same ones written in low-level languages. But on the other hand, it has a lot of available powerful frameworks, especially for machine learning and neural networks, which are internally implemented in faster low-level languages like C++. So, the speed reduction will not be critical in this case. In this thesis a relatively powerful onboard PC is used, a bit slower code is not a problem. But in a situation where the fastest possible execution time is needed, another language should be considered. 
-
-\subsection{PyTorch framework}
-
-PyTorch is a powerful open-source machine learning framework for Python. It is often used for computer vision tasks, contains many pre-implemented modules and features, which makes it usable in a wide variety of applications and for most neural network types. It is actively developed and maintained. Framework is written in Python, C++ and CUDA languages, but Python is used mainly as an interface for it. Low-level operations are not implemented in Python due to its relative slowness. PyTorch is capable of running on \acs{GPU} to accelerate tensor computing, however, CUDA-capable Nvidia \acs{GPU} must be used. 
-
-
 \section{Dataset}
 
 For this task was chosen a dataset from the authors of the \acs{CNN} architecture \cite{giusti2016machine}, but any similar dataset can be used. Requirement is that every image must be labeled to one of the three classes. The used dataset was acquired by a hiker, wearing three head-mounted cameras: one pointing straight ahead, one pointing 30 degrees left, one pointing 30 degrees right. In the code, there will be classes LEFT (for the camera pointed 30 degrees left), STRAIGHT (forward camera), and RIGHT (for the camera pointed 30 degrees right). Dataset is divided in such a way that approximately 75\% of it is used for training, and 25\% for validation. So, the neural network estimates the current direction relative to the trail, and based on this knowledge, further decision can be made.
@@ -406,13 +417,30 @@ Dataset was provided by the authors only as a set of photos. For the preparation
 
 \section{Neural network code}
 
-The implementation of the neural network was not provided by the authors of the architecture. Therefore, it was created by me using the Python programming language and the PyTorch framework.
+The implementation of the neural network was not provided by the authors of the architecture. Therefore, it was created by me. I have chosen the Python programming language for this task. It has a lot of available powerful frameworks, especially for machine learning and neural networks, which are internally implemented in faster low-level languages like C++. The PyTorch framework was chosen. It is a powerful open-source machine learning framework for the Python. The PyTorch is capable of running on a \acs{GPU} to accelerate tensor computing, however, CUDA-capable Nvidia \acs{GPU} must be used. In this thesis, it was used on the drone PC without the hardware acceleration.
 
-The neural network is trained for 90 epochs, with a batch size of 512, but even larger size could be considered if the GPU has enough memory. Adam optimizer is used, with an initial learning rate of 0.005. A scheduler is set, for reducing the learning rate by 5\% after each epoch. The criterion for training is the cross-entropy loss. 
+The neural network is trained for 90 epochs, with a batch size of 512, but even larger size could be considered if the GPU has enough memory. The Adam optimizer is used, with an initial learning rate of 0.005. A scheduler is set, for reducing the learning rate by 5\% after each epoch. The criterion for training is the cross-entropy loss. 
+
+During the training process, the validation accuracy got to the value of 90 percent (\reffig{fig:accuracy}). The process was stopped on 90 epochs because the validation loss has converged (\reffig{fig:loss}). Further training will cause overfitting and worse performance.
 
 \subsection{Training algorithm}
 
 After the initialization of the neural network model, optimizer, scheduler, and criterion, the program enters a 90-epoch loop. Then starts the training part where the forward pass and the back-propagation are calculated, optimizer step is done. After that, validation part begins and the scheduler step is performed. In the end, after a sufficient amount of iterations the weights of the neural network are saved for further usage.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{./fig/photos/accuracy1.eps}
+  \caption{Accuracy during the training process.}
+  \label{fig:accuracy}
+\end{figure}
+
+\begin{figure}[!h]
+
+  \centering
+  \includegraphics[width=0.7\textwidth]{./fig/photos/loss.eps}
+  \caption{Loss during the training process.}
+  \label{fig:loss}
+\end{figure}
 
 
 \section{Navigation algorithm}
@@ -441,16 +469,16 @@ where $\textrm{p}(\textrm{STRAIGHT})$ is the probability of the current directio
 Heading $\alpha$ for the path point is calculated according to the formula:
 
 \begin{equation}
-	\alpha = (\textrm{p}(x = \textrm{R}) - \textrm{p}(x = \textrm{L}))\cdot \alpha_{max}\,,
+	\alpha = (\textrm{p}(\textrm{RIGHT}) - \textrm{p}(\textrm{LEFT}))\cdot \alpha_{max}\,,
 \end{equation}
 where $\alpha_{max}$ is the maximum desired increment in radians. Step in x-axis $r_x$ relative to the current position is calculated as
 
 \begin{equation}
-	r_x = \textrm{p}(x = \textrm{S})\cdot \textrm{cos}(\alpha)\cdot r_{max}\,,
+	r_x = \textrm{p}(\textrm{STRAIGHT})\cdot \textrm{cos}(\alpha)\cdot r_{max}\,,
 \end{equation}
 where $r_{max}$ is a maximum desired step length. Step in y-axis $r_y$ is calculated as
 \begin{equation}
-	r_y = \textrm{p}(x = \textrm{S})\cdot \textrm{sin}(\alpha)\cdot r_{max}\,.
+	r_y = \textrm{p}(\textrm{STRAIGHT})\cdot \textrm{sin}(\alpha)\cdot r_{max}\,.
 \end{equation}
 Altitude is considered to remain constant so for each point it is set to $(1.8\,\textrm{m} - actual\_height)$ above the ground. Similar altitude was used in the dataset. Parameters $\alpha_{max}$, $r_{max}$ can be calibrated for better performance.
 
@@ -473,30 +501,35 @@ where $y_i$ is the output of the filter for the frame number $i$, $u_i$ is the r
 
 \section{Software}
 
-For simulation of such complex application a dedicated software is needed. The main tool for simulation and further usage in a real robot is Robot Operating System (ROS). It is a framework for robotic applications which offers abstraction from hardware, and even contains already implemented functions for communication between vehicles, sensors, cameras and other used hardware, both real and virtual. 
-The communication is performed using high-level messages. For every hardware unit a node is created. These nodes can subscribe (receive information) or publish to some topic. Topic represents a virtual pipe, through which the information is transferred. For example, there is a program running on robot PC. Program is subscribed to the topic \texttt{"/image"}, where the image is obtained from the node \texttt{"/camera"} and receives image from it. Then, it processes the image, makes some decision after it and commands the speed using \texttt{"/speed"} topic of the node \texttt{"/drone"}. Usually there are topics also for trajectory, odometry and other features.
+For simulation of such complex application, a dedicated software is needed. The main tool that was used for simulation and further usage on a real robot is the Robot Operating System (\acs{ROS}). It is a framework for robotic applications which offers abstraction from hardware, and even contains already implemented functions for communication between vehicles, sensors, cameras and other used hardware, both real and virtual. 
+The communication is performed using high-level messages. For every hardware unit a node is created. These nodes can subscribe (receive information) or publish to some topic. A topic represents a virtual pipe, through which the information is transferred. For example, there is a program running on a robot PC. Program is subscribed to the topic \texttt{"/image"}, where the image is obtained from the node \texttt{"/camera"} and receives the image from it. Then, it processes the image, makes some decision after it and commands the speed using the \texttt{"/speed"} topic of the node \texttt{"/drone"}. Usually there are topics also for trajectory, odometry and other features \cite{quigley2009ros}.
 
-TODO: IMAGES OF ROS NODES AND TOPICS
-
-Another tool used for simulation is Gazebo. It offers real-time graphical visualisation of the ongoing experiment. Very realistic scenarios can be created in this simulator, its engine allows for shaders, different lighting conditions, and even physics simulation. Therefore, a virtual model of the use-case scene and conditions is usually designed, including the vehicle itself. Such model makes it possible to conveniently test designed software before proceeding to real-world experiments as the cost of a mistake in the real world can be high. 
+Another tool used for simulation is Gazebo. It offers real-time graphical visualisation of the ongoing experiment. Realistic scenarios can be created in this simulator, its engine allows for shaders, different lighting conditions, and even physics simulation. Therefore, a virtual model of the use-case scene and conditions is usually designed, including the vehicle itself. Such model makes it possible to conveniently test the designed software before proceeding to real-world experiments as the cost of a mistake in the real world can be high. 
 
 \section{Simulation setup}
 
-For trail following simulation I decided to use the \acs{MRS} pre-configured setup for one-vehicle simulation (available at \href{https://github.com/ctu-mrs/simulation}{\acs{MRS} GitHub}). In my case I will run the system inside the singularity container. Default simulation does not include the onboard camera. Thus the \newline \texttt{enable\_mobius\_camera\_front} parameter was added to the startup config \texttt{session.yml}. I selected the "Baylands" world for simulation, because it has a section of forest path in it. 
+For trail following simulation I decided to use the \acs{MRS} pre-configured setup for one-vehicle simulation (available at \url{https://github.com/ctu-mrs/simulation}). In my case, the system runs inside a singularity container. Default simulation does not include the onboard camera. Thus the front-facing camera was added to the robot model. "Baylands" world was selected for simulation, because it has a section of forest path in it. Overview of this world is on \reffig{fig:baylands}.
 
-The code must be also modified to be run in simulation. Only needed change is the topic, from which the images are received.
+The code must be modified to be run in simulation. Only needed change is the topic, from which the images are received.
 
-To start the simulation I run the script \texttt{start.sh} and wait for initialisation of all windows. Then in tmux I can switch to the free window where no process is currently running and there startup my python code. 
+\begin{figure}[!h]
+
+  \centering
+  \includegraphics[width=0.75\textwidth]{./fig/photos/baylands.jpg}
+  \caption{"Baylands" world. Image from \url{docs.px4.io}.}
+  \label{fig:baylands}
+\end{figure}
+
 
 \section{Simulation results}
 
-During the experiment in simulation, performance of the implemented algorithm was tested in close to real-world conditions. \acs{UAV} successfully managed to follow the trail without getting lost. There are some oscillations during the heading correction, but they can be removed by using more complex heading regulation and fine tuning. Overall performance is good and proposed methods for navigation along the path worked as expected. Vehicle stayed on trail for as long as simulation was going, without fails. However, used map is relatively simple and has no obstacles or confusing factors, it was used to check the basic performance. Further and more detailed testing is conducted in real-world conditions.
+During the experiment in simulation, performance of the implemented algorithm was tested in close to real-world conditions. The \acs{MAV} successfully managed to follow the trail without getting lost (\reffig{fig:sim}). There were some oscillations during the heading correction, but these can be removed by using more complex heading regulation and fine tuning. The overall performance is good and the proposed methods for navigation along the path worked as expected. Vehicle stayed on the trail for as long as the simulation was going, without fails. However, the used map is relatively simple and has no obstacles or confusing factors. It was used to check the basic performance. Further and more detailed testing is conducted in real-world conditions, described in \refsec{rwexperiment}.
 
 
 \begin{figure}[!h]
 
   \centering
-  \subfloat[Neural network predicts that \acs{UAV} is most likely pointed right relative to the path, when it is actually pointed right. Vehicle turns left.] {
+  \subfloat[The neural network predicts that the \acs{MAV} is most likely pointed right relative to the path, when it is actually pointed right. Vehicle turns left.] {
     \includegraphics[width=0.75\textwidth]{./fig/photos/sim_right.png}
     \label{fig:sim_right}
   }
@@ -504,12 +537,12 @@ During the experiment in simulation, performance of the implemented algorithm wa
   \centering	
   
 
-  \subfloat[Prediction "straight" is most likely, \acs{UAV} is pointed straight. Vehicle moves forward.] {
+  \subfloat[Prediction "straight" is most likely, the \acs{MAV} is pointed straight. Vehicle moves forward.] {
     \includegraphics[width=0.75\textwidth]{./fig/photos/sim_straight.png}
     \label{fig:sim_straight}
   }
 
-  \caption{Predictions during simulation.}
+  \caption{Example images from the simulation.}
   \label{fig:sim}
 \end{figure}
 
@@ -523,7 +556,7 @@ During the experiment in simulation, performance of the implemented algorithm wa
 
 \section{Neural network performance test}
 
-For evaluation of the neural network performance in real-world forest conditions I decided to take a walk with the on-board computer and the camera, all powered from  the battery. Data was outputed in real-time to my laptop and I was able to evaluate the prediction correctness (\reffig{fig:test_nn}).
+For evaluation of the neural network performance in real-world forest conditions a preliminary experiment was conducted. The on-board computer and the camera were powered from  the battery and manually moved through the forest. Data was outputed in real-time to a laptop and the prediction correctness was evaluated (\reffig{fig:test_nn}).
 
 
 \begin{figure}[!h]
@@ -580,15 +613,16 @@ For evaluation of the neural network performance in real-world forest conditions
   \end{minipage}
   
   
-  \caption{Neural network performance test.}
+  \caption{Neural network performance in the preliminary experiment.}
   \label{fig:test_nn}
 \end{figure}
 
-Testing showed good neural network performance. Accuracy of determining the "left" and "right" classes in situation where it is also possible for humans was 100\%. There was once a situation though, where the neural network was outputting small probability of "straight" class, when looking straight. Probabilities of "left" and "right" were same, close to 50\%. But the issue was clearly dependent on the tilt angle of a camera, after tilting it a few degrees down, problem was solved. Possible source of issue could be not only the neural network fail-case, but also lens flare.
+The testing showed good neural network performance. The accuracy of determining the "left" and "right" classes in tested situations was 100\%. There was once a situation though, where the neural network was outputting a small probability of "straight" class, when looking straight. Probabilities of "left" and "right" were the same, close to 50\%. But the issue was clearly dependent on the tilt angle of the camera, after tilting it a few degrees down, the problem was solved. A possible source of the issue could be not only the neural network fail-case, but also a lens flare.
 
-\section{Complete tests on vehicle}
+\section{Complete tests on the vehicle}
+\label{rwexperiment}
 
-Real-world evaluation was conducted in a forest near the Czech town Temešvár. Together with \acs{MRS} team, we have found a suitable forest trails, where an algorithm can be thoroughly tested. Trails are of different complexity (visually) and contain slight obstacles on the sides (\reffig{fig:trails}). 
+A real-world evaluation was conducted in a forest near the Czech town Temešvár. Together with the \acs{MRS} team, suitable forest trails were found, where the algorithm was then thoroughly tested. Trails are of different complexity (visually) and contain slight obstacles on the sides (\reffig{fig:trails}). 
 
 \begin{figure}[!h]
 
@@ -611,11 +645,11 @@ Real-world evaluation was conducted in a forest near the Czech town Temešvár. 
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_3_op.png}
     \label{fig:path_3}
   }
-  \caption{The three trails used for testing.}
+  \caption{The three trails used for testing in the real-world experiments.}
   \label{fig:trails}
 \end{figure}
 
-The first trail (\reffig{fig:path_1}) is a 2.3\,m wide partly dirty asphalt road with turns, surrounded by trees and bushes. Due to the limited \acs{FOV} of the camera and relatively wide trail, when being in the middle of it, vehicle was seeing only a grey dull pattern with no features and because of that outputed 100\% probability of "straight" class even when not pointed straight. But as soon as the \acs{UAV} gets close to the road edge, neural network recognises it and gives the command to turn in opposite direction. Then it starts flying along the path and slowly getting closer to the other side and same situation happens. However, this "zig-zag" behaviour does not affect the performance too much. But in some situations flying close to the road edge is dangerous and during this test, path planner prevented the vehicle from executing several waypoints due to their proximity to an obstacle (\reffig{fig:avoid_1}). Problem can be solved by using a camera with wider \acs{FOV}. Travelled distance on the first path is 130\,m (\reffig{fig:satellite_1}).
+The first trail (\reffig{fig:path_1}) is a 2.3\,m wide partly dirty asphalt road with turns, surrounded by trees and bushes. Due to the limited \acs{FOV} of the camera and a relatively wide trail, when the vehicle was in the centre of the road, it saw only a grey dull pattern with no features and because of that outputed 100\% probability of "straight" class even when not pointed straight. But as soon as the \acs{UAV} got close to the road edge, the neural network recognised it and gave the command to turn in the opposite direction. Then, it started flying along the path and slowly got closer to the other side and the same situation happened. However, this "zig-zag" behaviour does not affect the performance too much. But in some situations, flying close to the road edge is dangerous and during this test, the path planner prevented the vehicle from executing several waypoints due to their proximity to an obstacle (\reffig{fig:avoid_1}). The problem can be solved by using a camera with a wider \acs{FOV}. The autonomously travelled distance on the first path was 130\,m (\reffig{fig:satellite_1}).
 
 \begin{figure}[!h]
 
@@ -628,7 +662,7 @@ The first trail (\reffig{fig:path_1}) is a 2.3\,m wide partly dirty asphalt road
   \centering	
   
 
-  \subfloat[Satellite image from Google Maps.] {
+  \subfloat[Satellite image of the travelled path from Google Maps.] {
     \includegraphics[width=0.7\textwidth]{./fig/photos/path_1.png}
     \label{fig:satellite_1}
   }
@@ -638,14 +672,13 @@ The first trail (\reffig{fig:path_1}) is a 2.3\,m wide partly dirty asphalt road
 \end{figure}
 
 
-The second trail (\reffig{fig:path_2}) is a 2-2.3\,m wide completely dirt road with one sharp turn and fences on sides. It was hard for the \acs{UAV} to stay on it. A lot of distractive features were present on the road and trail itself was not well maintained. When analysing the images, it can be seen that contrast between the trail and dry grass on sides is very low. Probably, colour adjustments of the camera are required and also including such low-contrast images to the dataset should help. Also, there was a ditch on the road which looked like a trail for the \acs{UAV} (\reffig{fig:confused_2}). However, when obstacle avoidance prevented it from flying into the bush, real trail reappeared in the field of view and vehicle managed to return on track. At the end, it got distracted again. Such trail was not followed with much success, but after mentioned improvements, results should be way better. Total travelled distance on this path was 40\,m (\reffig{fig:satellite_2}).
+The second trail (\reffig{fig:path_2}) is a 2-2.3\,m wide completely dirt road with one sharp turn and fences on sides. It was hard for the \acs{MAV} to stay on it. A lot of distracting features were present on the road and the trail itself was not well maintained. When analysing the images, it can be seen that the contrast between the trail and dry grass on the sides is very low. Probably, colour adjustments of the camera are required and also including such low-contrast images to the dataset would help. Also, there was a ditch on the road which looked like a trail for the \acs{MAV} (\reffig{fig:confused_2}). However, when the obstacle avoidance prevented it from flying into the bush, the real trail reappeared in the field of view and the vehicle managed to return on track. At the end, it got distracted again. Such trail was not followed with much success, but after the mentioned improvements, the results should be better. The total autonomously travelled distance on this path was 40\,m (\reffig{fig:satellite_2}).
 
-TODO: image of low contrast, onboard
 
 \begin{figure}[!h]
 
   \centering
-  \subfloat[\acs{UAV} got confused by a ditch, photo before recovery.] {
+  \subfloat[\acs{MAV} got confused by a ditch, photo before recovery.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_2_confused.png}
     \label{fig:confused_2}
   }
@@ -653,7 +686,7 @@ TODO: image of low contrast, onboard
   \centering	
   
 
-  \subfloat[Satellite image from Google Maps.] {
+  \subfloat[Satellite image of the travelled path from Google Maps.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_2.png}
     \label{fig:satellite_2}
   }
@@ -662,9 +695,9 @@ TODO: image of low contrast, onboard
   \label{fig:second_trail_photos}
 \end{figure}
 
-The third trail (\reffig{fig:path_3}) is a 2.8\,m wide gravel and dirt road with slight turns. Contrast between the road and sides on the gravel part is better than on previous trails. On dirt part contrast gets much lower, distinction between trail and sides is not as clear. But it has not not confused the \acs{CNN}. Its performance was better than on other trails. \acs{UAV} has flown a long way through it. However, in the end it got confused by the lying logs and vehicle started "following" one of them (\reffig{fig:fail_log_3}). It has probably happened due to the road and sides being both covered in dirt and from vehicle camera perspective they were not distinguishable. Total path flown is 160\,m on this trail (\reffig{fig:satellite_3}).
+The third trail (\reffig{fig:path_3}) is a 2.8\,m wide gravel and dirt road with slight turns. Contrast between the road and sides on the gravel part is better than on previous trails. On the dirt part contrast gets much lower, distinction between the trail and sides is not as clear. But it has not confused the \acs{CNN}. Its performance was better than on other trails. The \acs{MAV} flew a long way through it. However, in the end it got confused by logs on the ground and the vehicle started "following" one of them (\reffig{fig:fail_log_3}). It may have happened due to the road and the sides being both covered in dirt and from the vehicle camera perspective they were not distinguishable. The total path flown autonomously was 160\,m on this trail (\reffig{fig:satellite_3}). Images from the \acs{MAV} including the prediction are presented on \reffig{fig:onboard}.
 
-During the experiments, vehicle was mapping the environment with \acs{LiDAR}. These maps are presented on \reffig{fig:lidar}. Approximately every meter position and direction of the drone are visualised using a red arrow. Performance of the implemented algorithm can be seen from them. Obstacle avoidance did not change the heading, so all heading corrections during the flight were made only by the trail following program. According to those images, vehicle performed very good when flying through the first and the third trail. Arrows are pointed along the safe path.
+During the experiments, the vehicle was mapping the environment with the \acs{LiDAR}. These maps are presented on \reffig{fig:lidar}. Approximately every meter the position and the direction of the drone are visualised using a red arrow. The performance of the implemented algorithm can be seen from them. The obstacle avoidance did not change the heading, so all the heading corrections during the flight were made only by the trail following program. According to those images, the vehicle performed very good when flying through the first and the third trail. The arrows are pointed along the safe path.
 
 \begin{table}[]
 \centering
@@ -681,7 +714,7 @@ Experiment number & Travelled distance (m) & Flight time (minutes) \\ \hline
 \begin{figure}[!h]
 
   \centering
-  \subfloat[\acs{UAV} got confused by the log.] {
+  \subfloat[\acs{MAV} got confused by the log.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_3_fail_log.png}
     \label{fig:fail_log_3}
   }
@@ -689,7 +722,7 @@ Experiment number & Travelled distance (m) & Flight time (minutes) \\ \hline
   \centering	
   
 
-  \subfloat[Satellite image from Google Maps.] {
+  \subfloat[Satellite image of the travelled path from Google Maps.] {
     \includegraphics[width=0.72\textwidth]{./fig/photos/path_3.png}
     \label{fig:satellite_3}
   }
@@ -748,15 +781,15 @@ Experiment number & Travelled distance (m) & Flight time (minutes) \\ \hline
 
 %TODO: \include{csquotes}, potom \enquote{v uvozovkach}
 
-In this thesis, a 3-class classification convolutional neural network was implemented to solve the trail following problem utilising purely visual approach. Using only an RGB camera is a cheap solution and no other hardware than onboard PC with camera is mandatory to run the program. Also, neural network is supplemented by an algorithm, which generates trajectory points according to prediction. Program is able to run in Gazebo simulations and in real-world conditions online and was tested in both virtual and real environments.
+In this thesis, a 3-class classification convolutional neural network was implemented to solve the trail following problem utilising a purely visual approach. Using only an RGB camera is a cheap solution and no other hardware than an onboard PC with a camera is required to run the program. Also, the neural network is supplemented by an algorithm, which generates path points according to the prediction. The program is able to run in the Gazebo simulator and in real-world conditions online and was tested in both virtual and real environments.
 
-During the training process, neural network showed up to 90\% accuracy on validation. However, this dataset was acquired by other cameras than those used in this thesis. During the experiments, vehicle was able to fly relatively long distances on curvy trails (up to 160\,m), but got stuck when trail was not contrast enough or distracting factors appeared in the image. This problem can be caused by a different \acs{FOV} of used camera, colour rendering, image sensor quality and even season. Therefore, results can be improved by creating a new large dataset with conditions close to the expected and training the network on it. Also, increasing the field of view should help, because more features can be captured by the camera.
+During the training process, the neural network showed up to 90\% accuracy on validation. However, the dataset that was employed for training, was acquired by other cameras than those used in this thesis. During the experiments, the vehicle was able to fly long distances on curvy trails (up to 160\,m) but got stuck when the trail was not contrast enough or distracting factors appeared in the image. This problem can be caused by a different \acs{FOV} of the used camera, colour rendering, image sensor quality and even season. Therefore, the results can be improved by creating a new larger dataset with conditions close to the expected and training the network on it. Also, increasing the field of view could help, because more features can be captured by the camera.
 
-Another possible improvement can be usage of a segmentation neural network, it allows to predict also the shape of the future trajectory. However, it may be challenging to distinguish the road from the sides during segmentation, and requires a big manually labeled dataset. Therefore, in this thesis only classification approach was taken.
+Another possible improvement can be the usage of a segmentation neural network, as it allows to predict also the shape of the future trajectory. However, it may be challenging to distinguish the road from the sides during segmentation, and requires a big manually labeled dataset. Therefore, in this thesis only the classification approach was taken.
 
-Implemented algorithm is a good base and addition for more complex navigation solutions in forest conditions. It was demonstrated during experiments, when \acs{LiDAR}-based obstacle avoidance and path planning was run alongside with trail-following neural network. It prevented the \acs{UAV} from flying too close to dangerous obstacles like trees or bushes.
+The implemented algorithm is a good baseline and an addition for more complex navigation solutions in forest conditions. It was demonstrated during experiments, when \acs{LiDAR}-based obstacle avoidance and path planning run alongside with the trail-following neural network. It prevented the \acs{UAV} from flying too close to dangerous obstacles like trees or bushes.
 
-Assignment of creating a ready-to-run trail-following algorithm for \acs{MRS} \acs{UAV}s was satisfied and tested with a team. Developed program showed relatively good performance. In spite of that, there is still a lot of room for improvements and tweaks, because in challenging environments a probability of failure is high.
+The \acs{MAV} flew autonomously up to 160\,m in a challenging forest environment using the proposed approach and the implemented program.
 
 
 %% |                         References                         |

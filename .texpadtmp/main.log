@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.23)  11 MAY 2022 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.23)  13 MAY 2022 15:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1516,7 +1516,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 29.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./src/title.tex
-<fig/ctu_lion.pdf, id=195, 561.09625pt x 440.64626pt>
+<fig/ctu_lion.pdf, id=183, 561.09625pt x 440.64626pt>
 File: fig/ctu_lion.pdf Graphic file (type pdf)
 <use fig/ctu_lion.pdf>
 Package pdftex.def Info: fig/ctu_lion.pdf  used on input line 11.
@@ -1533,154 +1533,156 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
 
-(./src/acknowledgments.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<src/assignment.pdf, id=195, 597.50829pt x 845.0471pt>
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf>
+Package pdftex.def Info: src/assignment.pdf  used on input line 50.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf>
+Package pdftex.def Info: src/assignment.pdf  used on input line 50.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<src/assignment.pdf, id=198, page=1, 597.50829pt x 845.0471pt>
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf, page 1>
+Package pdftex.def Info: src/assignment.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf, page 1>
+Package pdftex.def Info: src/assignment.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf, page 1>
+Package pdftex.def Info: src/assignment.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf, page 1>
+Package pdftex.def Info: src/assignment.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 \conditionalClearPage
-                           [1
+l.50 \includepdf{src/assignment.pdf}
+                                    
+File: src/assignment.pdf Graphic file (type pdf)
+<use src/assignment.pdf, page 1>
+Package pdftex.def Info: src/assignment.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [1
 
-]
-<src/assignment.pdf, id=210, 597.50829pt x 845.0471pt>
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf>
-Package pdftex.def Info: src/assignment.pdf  used on input line 56.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf>
-Package pdftex.def Info: src/assignment.pdf  used on input line 56.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<src/assignment.pdf, id=213, page=1, 597.50829pt x 845.0471pt>
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf, page 1>
-Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf, page 1>
-Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf, page 1>
-Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf, page 1>
-Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: src/assignment.pdf Graphic file (type pdf)
-<use src/assignment.pdf, page 1>
-Package pdftex.def Info: src/assignment.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [2
+ <./src/assignment.pdf>] (./src/acknowledgments.tex) [2
 
- <./src/assignment.pdf>] (./src/abstract_en.tex) [3
+] (./src/statement.tex) [3
 
-] (./src/abstrakt_cz.tex) [4
+] (./src/abstract_en.tex) [4
+
+] (./src/abstrakt_cz.tex) [5
 
 ] (./src/abbreviations.tex
 
-LaTeX Warning: Hyper reference `acro:FOV' on page v undefined on input line 5.
+LaTeX Warning: Hyper reference `acro:FOV' on page vi undefined on input line 5.
 
 
-LaTeX Warning: Hyper reference `acro:FOV' on page v undefined on input line 5.
+LaTeX Warning: Hyper reference `acro:FOV' on page vi undefined on input line 5.
 
 
-LaTeX Warning: Hyper reference `acro:GPS' on page v undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:GPS' on page vi undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:GPS' on page v undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:GPS' on page vi undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:LiDAR' on page v undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:LiDAR' on page vi undefined on input line 9.
 
 
-LaTeX Warning: Hyper reference `acro:LiDAR' on page v undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:LiDAR' on page vi undefined on input line 9.
 
 
-LaTeX Warning: Hyper reference `acro:MAV' on page v undefined on input line 10.
+LaTeX Warning: Hyper reference `acro:MAV' on page vi undefined on input line 10.
 
 
-LaTeX Warning: Hyper reference `acro:MAV' on page v undefined on input line 10.
+LaTeX Warning: Hyper reference `acro:MAV' on page vi undefined on input line 10.
 
 
-LaTeX Warning: Hyper reference `acro:MRS' on page v undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:MRS' on page vi undefined on input line 11.
 
 
-LaTeX Warning: Hyper reference `acro:MRS' on page v undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:MRS' on page vi undefined on input line 11.
 
 
-LaTeX Warning: Hyper reference `acro:ROS' on page v undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:ROS' on page vi undefined on input line 12.
 
 
-LaTeX Warning: Hyper reference `acro:ROS' on page v undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:ROS' on page vi undefined on input line 12.
 
 
-LaTeX Warning: Hyper reference `acro:UAV' on page v undefined on input line 13.
+LaTeX Warning: Hyper reference `acro:UAV' on page vi undefined on input line 13.
 
 
-LaTeX Warning: Hyper reference `acro:UAV' on page v undefined on input line 13.
+LaTeX Warning: Hyper reference `acro:UAV' on page vi undefined on input line 13.
 
 
-LaTeX Warning: Hyper reference `acro:RGB' on page v undefined on input line 15.
+LaTeX Warning: Hyper reference `acro:RGB' on page vi undefined on input line 15.
 
 
-LaTeX Warning: Hyper reference `acro:RGB' on page v undefined on input line 15.
+LaTeX Warning: Hyper reference `acro:RGB' on page vi undefined on input line 15.
 
 
-LaTeX Warning: Hyper reference `acro:USB' on page v undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:USB' on page vi undefined on input line 16.
 
 
-LaTeX Warning: Hyper reference `acro:USB' on page v undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:USB' on page vi undefined on input line 16.
 
 
-LaTeX Warning: Hyper reference `acro:IR' on page v undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:IR' on page vi undefined on input line 17.
 
 
-LaTeX Warning: Hyper reference `acro:IR' on page v undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:IR' on page vi undefined on input line 17.
 
 
-LaTeX Warning: Hyper reference `acro:CNN' on page v undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:CNN' on page vi undefined on input line 18.
 
 
-LaTeX Warning: Hyper reference `acro:CNN' on page v undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:CNN' on page vi undefined on input line 18.
 
 
-LaTeX Warning: Hyper reference `acro:GPU' on page v undefined on input line 21.
+LaTeX Warning: Hyper reference `acro:GPU' on page vi undefined on input line 21.
 
 
-LaTeX Warning: Hyper reference `acro:GPU' on page v undefined on input line 21.
+LaTeX Warning: Hyper reference `acro:GPU' on page vi undefined on input line 21.
 
-) [5
+) [6
 
 ] (/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.toc
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 39.
 
-[6
+[7
 
 ])
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [7]
+ [8]
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 100.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 115.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 100.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 115.
 
 Chapter 1.
-<./fig/photos/firefighter.jpeg, id=339, 5203.44pt x 3468.96pt>
+<./fig/photos/firefighter.jpeg, id=341, 5203.44pt x 3468.96pt>
 File: ./fig/photos/firefighter.jpeg Graphic file (type jpg)
 <use ./fig/photos/firefighter.jpeg>
-Package pdftex.def Info: ./fig/photos/firefighter.jpeg  used on input line 115.
+Package pdftex.def Info: ./fig/photos/firefighter.jpeg  used on input line 130.
 (pdftex.def)             Requested size: 266.32062pt x 177.53392pt.
 Package acronym Info: Label `acro:SAR' newly defined as it shall be overridden
-although it is yet undefined on input line 122.
+although it is yet undefined on input line 137.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 123.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 138.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 123.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 138.
 
 [1
 
@@ -1688,71 +1690,71 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
  <./fig/photos/firefighter.jpeg>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/photos/recurrent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./fig/photos/recurrent.pdf, id=363, 153.6942pt x 169.5936pt>
+<./fig/photos/recurrent.pdf, id=386, 153.6942pt x 169.5936pt>
 File: ./fig/photos/recurrent.pdf Graphic file (type pdf)
 <use ./fig/photos/recurrent.pdf>
-Package pdftex.def Info: ./fig/photos/recurrent.pdf  used on input line 143.
+Package pdftex.def Info: ./fig/photos/recurrent.pdf  used on input line 158.
 (pdftex.def)             Requested size: 221.9316pt x 244.89775pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<./fig/photos/challenging_path.jpg, id=376, 1284.8pt x 963.6pt>
+<./fig/photos/challenging_path.jpg, id=404, 1284.8pt x 963.6pt>
 File: ./fig/photos/challenging_path.jpg Graphic file (type jpg)
 <use ./fig/photos/challenging_path.jpg>
-Package pdftex.def Info: ./fig/photos/challenging_path.jpg  used on input line 163.
+Package pdftex.def Info: ./fig/photos/challenging_path.jpg  used on input line 178.
 (pdftex.def)             Requested size: 332.89738pt x 249.6626pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./fig/photos/recurrent.pdf>]
-<./fig/photos/trail1.jpg, id=399, 754.82pt x 481.8pt>
+<./fig/photos/trail1.jpg, id=427, 754.82pt x 481.8pt>
 File: ./fig/photos/trail1.jpg Graphic file (type jpg)
 <use ./fig/photos/trail1.jpg>
-Package pdftex.def Info: ./fig/photos/trail1.jpg  used on input line 178.
+Package pdftex.def Info: ./fig/photos/trail1.jpg  used on input line 193.
 (pdftex.def)             Requested size: 199.73708pt x 127.4926pt.
-<./fig/photos/road.PNG, id=402, 1974.37625pt x 1174.3875pt>
+<./fig/photos/road.PNG, id=430, 1974.37625pt x 1174.3875pt>
 File: ./fig/photos/road.PNG Graphic file (type png)
 <use ./fig/photos/road.PNG>
-Package pdftex.def Info: ./fig/photos/road.PNG  used on input line 182.
+Package pdftex.def Info: ./fig/photos/road.PNG  used on input line 197.
 (pdftex.def)             Requested size: 199.73708pt x 118.7896pt.
  [4 <./fig/photos/challenging_path.jpg>]
-<./fig/photos/class_l.jpg, id=419, 754.82pt x 481.8pt>
+<./fig/photos/class_l.jpg, id=449, 754.82pt x 481.8pt>
 File: ./fig/photos/class_l.jpg Graphic file (type jpg)
 <use ./fig/photos/class_l.jpg>
-Package pdftex.def Info: ./fig/photos/class_l.jpg  used on input line 198.
+Package pdftex.def Info: ./fig/photos/class_l.jpg  used on input line 213.
 (pdftex.def)             Requested size: 210.83434pt x 134.57225pt.
-<./fig/photos/class_r.jpg, id=420, 754.82pt x 481.8pt>
+<./fig/photos/class_r.jpg, id=450, 754.82pt x 481.8pt>
 File: ./fig/photos/class_r.jpg Graphic file (type jpg)
 <use ./fig/photos/class_r.jpg>
-Package pdftex.def Info: ./fig/photos/class_r.jpg  used on input line 207.
+Package pdftex.def Info: ./fig/photos/class_r.jpg  used on input line 222.
 (pdftex.def)             Requested size: 210.83434pt x 134.57225pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 193--208
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 208--223
 []$[]$ $[]$ 
  []
 
-<./fig/photos/class_s.jpg, id=421, 754.82pt x 481.8pt>
+<./fig/photos/class_s.jpg, id=451, 754.82pt x 481.8pt>
 File: ./fig/photos/class_s.jpg Graphic file (type jpg)
 <use ./fig/photos/class_s.jpg>
-Package pdftex.def Info: ./fig/photos/class_s.jpg  used on input line 213.
+Package pdftex.def Info: ./fig/photos/class_s.jpg  used on input line 228.
 (pdftex.def)             Requested size: 221.9316pt x 141.65926pt.
 [5 <./fig/photos/trail1.jpg> <./fig/photos/road.PNG> <./fig/photos/class_l.jpg> <./fig/photos/class_r.jpg> <./fig/photos/class_s.jpg>] [6]
 Chapter 2.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 272.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 287.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 272.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 287.
 
 [7
 
 ]
-<./fig/photos/hyperbolic_tangent.png, id=469, 2569.6pt x 1416.29124pt>
+<./fig/photos/hyperbolic_tangent.png, id=499, 2569.6pt x 1416.29124pt>
 File: ./fig/photos/hyperbolic_tangent.png Graphic file (type png)
 <use ./fig/photos/hyperbolic_tangent.png>
-Package pdftex.def Info: ./fig/photos/hyperbolic_tangent.png  used on input line 292.
+Package pdftex.def Info: ./fig/photos/hyperbolic_tangent.png  used on input line 307.
 (pdftex.def)             Requested size: 266.32062pt x 146.78079pt.
  [8 <./fig/photos/hyperbolic_tangent.png>] [9] (./cnn.tex
 Overfull \hbox (2.17592pt too wide) in paragraph at lines 69--70
@@ -1762,10 +1764,10 @@ Overfull \hbox (2.17592pt too wide) in paragraph at lines 69--70
 )
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/photos/Conv_BP.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./fig/photos/Conv_BP.pdf, id=496, 505.89pt x 250.0542pt>
+<./fig/photos/Conv_BP.pdf, id=529, 505.89pt x 250.0542pt>
 File: ./fig/photos/Conv_BP.pdf Graphic file (type pdf)
 <use ./fig/photos/Conv_BP.pdf>
-Package pdftex.def Info: ./fig/photos/Conv_BP.pdf  used on input line 351.
+Package pdftex.def Info: ./fig/photos/Conv_BP.pdf  used on input line 366.
 (pdftex.def)             Requested size: 332.89738pt x 164.54788pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1773,239 +1775,292 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [10] [11 <./fig/photos/Conv_BP.pdf>]
 Chapter 3.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 395.
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/photos/system.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./fig/photos/system.pdf, id=559, 264.02641pt x 234.8775pt>
+File: ./fig/photos/system.pdf Graphic file (type pdf)
+<use ./fig/photos/system.pdf>
+Package pdftex.def Info: ./fig/photos/system.pdf  used on input line 393.
+(pdftex.def)             Requested size: 310.70287pt x 276.4255pt.
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 406.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 395.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 406.
 
 [12
 
-] [13]
-LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 439.
+ <./fig/photos/system.pdf>] [13]
+Package epstopdf Info: Source file: <./fig/photos/accuracy1.eps>
+(epstopdf)                    date: 2022-05-13 11:08:01
+(epstopdf)                    size: 20513 bytes
+(epstopdf)             Output file: <./fig/photos/accuracy1-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-13 11:08:06
+(epstopdf)                    size: 8106 bytes
+(epstopdf)             Command: <epstopdf --outfile=./fig/photos/accuracy1-eps-converted-to.pdf ./fig/photos/accuracy1.eps>
+(epstopdf)             \includegraphics on input line 432.
+Package epstopdf Info: Output file is already uptodate.
+<./fig/photos/accuracy1-eps-converted-to.pdf, id=599, 562.1pt x 421.575pt>
+File: ./fig/photos/accuracy1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./fig/photos/accuracy1-eps-converted-to.pdf>
+Package pdftex.def Info: ./fig/photos/accuracy1-eps-converted-to.pdf  used on input line 432.
+(pdftex.def)             Requested size: 310.70287pt x 233.02484pt.
+Package epstopdf Info: Source file: <./fig/photos/loss.eps>
+(epstopdf)                    date: 2022-05-13 11:13:07
+(epstopdf)                    size: 20643 bytes
+(epstopdf)             Output file: <./fig/photos/loss-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-13 11:26:11
+(epstopdf)                    size: 7532 bytes
+(epstopdf)             Command: <epstopdf --outfile=./fig/photos/loss-eps-converted-to.pdf ./fig/photos/loss.eps>
+(epstopdf)             \includegraphics on input line 440.
+Package epstopdf Info: Output file is already uptodate.
+<./fig/photos/loss-eps-converted-to.pdf, id=600, 562.1pt x 421.575pt>
+File: ./fig/photos/loss-eps-converted-to.pdf Graphic file (type pdf)
+<use ./fig/photos/loss-eps-converted-to.pdf>
+Package pdftex.def Info: ./fig/photos/loss-eps-converted-to.pdf  used on input line 440.
+(pdftex.def)             Requested size: 310.70287pt x 233.02484pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./fig/photos/accuracy1-eps-converted-to.pdf>]
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 467.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 439.
- [14] [15]
+(Font)              scaled to size 10.95pt on input line 467.
+ [15 <./fig/photos/loss-eps-converted-to.pdf>] [16]
 Chapter 4.
+<./fig/photos/baylands.jpg, id=644, 1636.1125pt x 863.225pt>
+File: ./fig/photos/baylands.jpg Graphic file (type jpg)
+<use ./fig/photos/baylands.jpg>
+Package pdftex.def Info: ./fig/photos/baylands.jpg  used on input line 518.
+(pdftex.def)             Requested size: 332.89738pt x 175.63193pt.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 494.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 494.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 527.
 
-[16
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 527.
+
+[17
 
 ]
-<./fig/photos/sim_right.png, id=584, 1325.95375pt x 810.02625pt>
+<./fig/photos/sim_right.png, id=657, 1325.95375pt x 810.02625pt>
 File: ./fig/photos/sim_right.png Graphic file (type png)
 <use ./fig/photos/sim_right.png>
-Package pdftex.def Info: ./fig/photos/sim_right.png  used on input line 502.
+Package pdftex.def Info: ./fig/photos/sim_right.png  used on input line 535.
 (pdftex.def)             Requested size: 332.89738pt x 203.3589pt.
-<./fig/photos/sim_straight.png, id=587, 1326.9575pt x 808.01875pt>
+<./fig/photos/sim_straight.png, id=660, 1326.9575pt x 808.01875pt>
 File: ./fig/photos/sim_straight.png Graphic file (type png)
 <use ./fig/photos/sim_straight.png>
-Package pdftex.def Info: ./fig/photos/sim_straight.png  used on input line 510.
+Package pdftex.def Info: ./fig/photos/sim_straight.png  used on input line 543.
 (pdftex.def)             Requested size: 332.89738pt x 202.70695pt.
- [17 <./fig/photos/sim_right.png> <./fig/photos/sim_straight.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <./fig/photos/baylands.jpg>] [19 <./fig/photos/sim_right.png> <./fig/photos/sim_straight.png>]
 Chapter 5.
-<./fig/photos/nn_1_1.jpg, id=602, 1284.8pt x 963.6pt>
+<./fig/photos/nn_1_1.jpg, id=679, 1284.8pt x 963.6pt>
 File: ./fig/photos/nn_1_1.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_1_1.jpg>
-Package pdftex.def Info: ./fig/photos/nn_1_1.jpg  used on input line 535.
+Package pdftex.def Info: ./fig/photos/nn_1_1.jpg  used on input line 568.
 (pdftex.def)             Requested size: 199.73708pt x 149.79755pt.
-<./fig/photos/nn_2_1.jpg, id=603, 590.205pt x 377.41pt>
+<./fig/photos/nn_2_1.jpg, id=680, 590.205pt x 377.41pt>
 File: ./fig/photos/nn_2_1.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_2_1.jpg>
-Package pdftex.def Info: ./fig/photos/nn_2_1.jpg  used on input line 544.
+Package pdftex.def Info: ./fig/photos/nn_2_1.jpg  used on input line 577.
 (pdftex.def)             Requested size: 199.73708pt x 127.71878pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 530--546
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 563--579
 []$[]$ $[]$ 
  []
 
-<./fig/photos/nn_1_2.jpg, id=604, 1284.8pt x 963.6pt>
+<./fig/photos/nn_1_2.jpg, id=681, 1284.8pt x 963.6pt>
 File: ./fig/photos/nn_1_2.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_1_2.jpg>
-Package pdftex.def Info: ./fig/photos/nn_1_2.jpg  used on input line 553.
+Package pdftex.def Info: ./fig/photos/nn_1_2.jpg  used on input line 586.
 (pdftex.def)             Requested size: 199.73708pt x 149.79755pt.
-<./fig/photos/nn_2_2.jpg, id=605, 612.2875pt x 396.48125pt>
+<./fig/photos/nn_2_2.jpg, id=682, 612.2875pt x 396.48125pt>
 File: ./fig/photos/nn_2_2.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_2_2.jpg>
-Package pdftex.def Info: ./fig/photos/nn_2_2.jpg  used on input line 562.
+Package pdftex.def Info: ./fig/photos/nn_2_2.jpg  used on input line 595.
 (pdftex.def)             Requested size: 199.73708pt x 129.33885pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 548--564
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 581--597
 []$[]$ $[]$ 
  []
 
-<./fig/photos/nn_1_3.jpg, id=606, 1284.8pt x 963.6pt>
+<./fig/photos/nn_1_3.jpg, id=683, 1284.8pt x 963.6pt>
 File: ./fig/photos/nn_1_3.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_1_3.jpg>
-Package pdftex.def Info: ./fig/photos/nn_1_3.jpg  used on input line 570.
+Package pdftex.def Info: ./fig/photos/nn_1_3.jpg  used on input line 603.
 (pdftex.def)             Requested size: 199.73708pt x 149.79755pt.
-<./fig/photos/nn_2_3.jpg, id=607, 541.02126pt x 342.27875pt>
+<./fig/photos/nn_2_3.jpg, id=684, 541.02126pt x 342.27875pt>
 File: ./fig/photos/nn_2_3.jpg Graphic file (type jpg)
 <use ./fig/photos/nn_2_3.jpg>
-Package pdftex.def Info: ./fig/photos/nn_2_3.jpg  used on input line 579.
+Package pdftex.def Info: ./fig/photos/nn_2_3.jpg  used on input line 612.
 (pdftex.def)             Requested size: 199.73708pt x 126.36433pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 565--581
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 598--614
 []$[]$ $[]$ 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./fig/photos/path_1_op.png, id=610, 1517.67pt x 849.1725pt>
+<./fig/photos/path_1_op.png, id=687, 1517.67pt x 849.1725pt>
 File: ./fig/photos/path_1_op.png Graphic file (type png)
 <use ./fig/photos/path_1_op.png>
-Package pdftex.def Info: ./fig/photos/path_1_op.png  used on input line 599.
+Package pdftex.def Info: ./fig/photos/path_1_op.png  used on input line 633.
 (pdftex.def)             Requested size: 319.58203pt x 178.8109pt.
-<./fig/photos/path_2_op.png, id=611, 1517.67pt x 849.1725pt>
+<./fig/photos/path_2_op.png, id=688, 1517.67pt x 849.1725pt>
 File: ./fig/photos/path_2_op.png Graphic file (type png)
 <use ./fig/photos/path_2_op.png>
-Package pdftex.def Info: ./fig/photos/path_2_op.png  used on input line 607.
+Package pdftex.def Info: ./fig/photos/path_2_op.png  used on input line 641.
 (pdftex.def)             Requested size: 319.58203pt x 178.8109pt.
-<./fig/photos/path_3_op.png, id=612, 1517.67pt x 856.19875pt>
+<./fig/photos/path_3_op.png, id=689, 1517.67pt x 856.19875pt>
 File: ./fig/photos/path_3_op.png Graphic file (type png)
 <use ./fig/photos/path_3_op.png>
-Package pdftex.def Info: ./fig/photos/path_3_op.png  used on input line 613.
+Package pdftex.def Info: ./fig/photos/path_3_op.png  used on input line 647.
 (pdftex.def)             Requested size: 319.58203pt x 180.29042pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./fig/photos/path_1_avoid.png, id=619, 814.04124pt x 491.8375pt>
+<./fig/photos/path_1_avoid.png, id=696, 814.04124pt x 491.8375pt>
 File: ./fig/photos/path_1_avoid.png Graphic file (type png)
 <use ./fig/photos/path_1_avoid.png>
-Package pdftex.def Info: ./fig/photos/path_1_avoid.png  used on input line 626.
+Package pdftex.def Info: ./fig/photos/path_1_avoid.png  used on input line 660.
 (pdftex.def)             Requested size: 310.70287pt x 187.72571pt.
-<./fig/photos/path_1.png, id=622, 1205.00188pt x 683.05188pt>
+<./fig/photos/path_1.png, id=699, 1205.00188pt x 683.05188pt>
 File: ./fig/photos/path_1.png Graphic file (type png)
 <use ./fig/photos/path_1.png>
-Package pdftex.def Info: ./fig/photos/path_1.png  used on input line 634.
+Package pdftex.def Info: ./fig/photos/path_1.png  used on input line 668.
 (pdftex.def)             Requested size: 310.70287pt x 176.11972pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 642.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 676.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 642.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 676.
 
-[18
+[20
 
 ]
-<./fig/photos/path_2_confused.png, id=639, 840.13875pt x 490.83376pt>
+<./fig/photos/path_2_confused.png, id=716, 840.13875pt x 490.83376pt>
 File: ./fig/photos/path_2_confused.png Graphic file (type png)
 <use ./fig/photos/path_2_confused.png>
-Package pdftex.def Info: ./fig/photos/path_2_confused.png  used on input line 651.
+Package pdftex.def Info: ./fig/photos/path_2_confused.png  used on input line 684.
 (pdftex.def)             Requested size: 319.58203pt x 186.706pt.
-<./fig/photos/path_2.png, id=642, 702.12312pt x 431.6125pt>
+<./fig/photos/path_2.png, id=719, 702.12312pt x 431.6125pt>
 File: ./fig/photos/path_2.png Graphic file (type png)
 <use ./fig/photos/path_2.png>
-Package pdftex.def Info: ./fig/photos/path_2.png  used on input line 659.
+Package pdftex.def Info: ./fig/photos/path_2.png  used on input line 692.
 (pdftex.def)             Requested size: 319.58203pt x 196.45644pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./fig/photos/nn_1_1.jpg> <./fig/photos/nn_2_1.jpg> <./fig/photos/nn_1_2.jpg> <./fig/photos/nn_2_2.jpg> <./fig/photos/nn_1_3.jpg> <./fig/photos/nn_2_3.jpg>]
+[21 <./fig/photos/nn_1_1.jpg> <./fig/photos/nn_2_1.jpg> <./fig/photos/nn_1_2.jpg> <./fig/photos/nn_2_2.jpg> <./fig/photos/nn_1_3.jpg> <./fig/photos/nn_2_3.jpg>]
 
-LaTeX Warning: Text page 20 contains only floats.
+LaTeX Warning: Text page 22 contains only floats.
 
-[20 <./fig/photos/path_1_op.png> <./fig/photos/path_2_op.png> <./fig/photos/path_3_op.png>]
+[22 <./fig/photos/path_1_op.png> <./fig/photos/path_2_op.png> <./fig/photos/path_3_op.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 669.
+               Default added (so using `tbp') on input line 702.
 
-<./fig/photos/path_3_fail_log.png, id=672, 1201.99063pt x 816.04875pt>
+<./fig/photos/path_3_fail_log.png, id=753, 1201.99063pt x 816.04875pt>
 File: ./fig/photos/path_3_fail_log.png Graphic file (type png)
 <use ./fig/photos/path_3_fail_log.png>
-Package pdftex.def Info: ./fig/photos/path_3_fail_log.png  used on input line 687.
+Package pdftex.def Info: ./fig/photos/path_3_fail_log.png  used on input line 720.
 (pdftex.def)             Requested size: 319.58203pt x 216.96164pt.
-<./fig/photos/path_3.png, id=675, 958.07938pt x 586.19pt>
+<./fig/photos/path_3.png, id=756, 958.07938pt x 586.19pt>
 File: ./fig/photos/path_3.png Graphic file (type png)
 <use ./fig/photos/path_3.png>
-Package pdftex.def Info: ./fig/photos/path_3.png  used on input line 695.
+Package pdftex.def Info: ./fig/photos/path_3.png  used on input line 728.
 (pdftex.def)             Requested size: 319.58203pt x 195.52737pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./fig/photos/path1_lidar.png, id=676, 921.4425pt x 930.47626pt>
+<./fig/photos/path1_lidar.png, id=757, 921.4425pt x 930.47626pt>
 File: ./fig/photos/path1_lidar.png Graphic file (type png)
 <use ./fig/photos/path1_lidar.png>
-Package pdftex.def Info: ./fig/photos/path1_lidar.png  used on input line 708.
+Package pdftex.def Info: ./fig/photos/path1_lidar.png  used on input line 741.
 (pdftex.def)             Requested size: 188.6432pt x 190.4791pt.
-<./fig/photos/path2_lidar.png, id=677, 921.4425pt x 930.47626pt>
+<./fig/photos/path2_lidar.png, id=758, 921.4425pt x 930.47626pt>
 File: ./fig/photos/path2_lidar.png Graphic file (type png)
 <use ./fig/photos/path2_lidar.png>
-Package pdftex.def Info: ./fig/photos/path2_lidar.png  used on input line 715.
+Package pdftex.def Info: ./fig/photos/path2_lidar.png  used on input line 748.
 (pdftex.def)             Requested size: 188.6432pt x 190.4791pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 703--717
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 736--750
 []$[]$ $[]$ 
  []
 
-<./fig/photos/path3_lidar1.png, id=678, 921.4425pt x 930.47626pt>
+<./fig/photos/path3_lidar1.png, id=759, 921.4425pt x 930.47626pt>
 File: ./fig/photos/path3_lidar1.png Graphic file (type png)
 <use ./fig/photos/path3_lidar1.png>
-Package pdftex.def Info: ./fig/photos/path3_lidar1.png  used on input line 722.
+Package pdftex.def Info: ./fig/photos/path3_lidar1.png  used on input line 755.
 (pdftex.def)             Requested size: 177.54256pt x 179.27695pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./fig/photos/path3_camera.png, id=681, 599.99156pt x 338.76563pt>
+<./fig/photos/path3_camera.png, id=762, 599.99156pt x 338.76563pt>
 File: ./fig/photos/path3_camera.png Graphic file (type png)
 <use ./fig/photos/path3_camera.png>
-Package pdftex.def Info: ./fig/photos/path3_camera.png  used on input line 731.
+Package pdftex.def Info: ./fig/photos/path3_camera.png  used on input line 764.
 (pdftex.def)             Requested size: 188.6432pt x 106.51013pt.
-<./fig/photos/path3_camera2.png, id=682, 599.99156pt x 338.76563pt>
+<./fig/photos/path3_camera2.png, id=763, 599.99156pt x 338.76563pt>
 File: ./fig/photos/path3_camera2.png Graphic file (type png)
 <use ./fig/photos/path3_camera2.png>
-Package pdftex.def Info: ./fig/photos/path3_camera2.png  used on input line 736.
+Package pdftex.def Info: ./fig/photos/path3_camera2.png  used on input line 769.
 (pdftex.def)             Requested size: 188.6432pt x 106.51013pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 729--739
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 762--772
 []$[]$ $[]$ 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./fig/photos/path_1_avoid.png> <./fig/photos/path_1.png>] [22 <./fig/photos/path_2_confused.png> <./fig/photos/path_2.png>] [23 <./fig/photos/path_3_fail_log.png> <./fig/photos/path_3.png>] [24 <./fig/photos/path1_lidar.png (PNG copy)> <./fig/photos/path2_lidar.png (PNG copy)> <./fig/photos/path3_lidar1.png (PNG copy)> <./fig/photos/path3_camera.png> <./fig/photos/path3_camera2.png>]
+[23 <./fig/photos/path_1_avoid.png> <./fig/photos/path_1.png>] [24 <./fig/photos/path_2_confused.png> <./fig/photos/path_2.png>] [25 <./fig/photos/path_3_fail_log.png> <./fig/photos/path_3.png>] [26 <./fig/photos/path1_lidar.png (PNG copy)> <./fig/photos/path2_lidar.png (PNG copy)> <./fig/photos/path3_lidar1.png (PNG copy)> <./fig/photos/path3_camera.png> <./fig/photos/path3_camera2.png>]
 Chapter 6.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 765.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 798.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 765.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 798.
 
-[25
+[27
 
 ]
 Chapter 7.
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 779.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 800.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 779.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 800.
 
-[26
+[28
 
-]
+] [29] [30]
 Appendix A.
 
 AED: lastpage setting LastPage
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 781.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 814.
 
 
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 781.
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 814.
 
-[27
+[31
 
 ] (/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.aux)
 
@@ -2015,24 +2070,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 03557956EB2C51775C48E4D60483E3D1;6110.
+(rerunfilecheck)             Checksum: DF3595CAF81C7E6A1C79E5F3724373BA;5735.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54412 strings out of 478994
- 1209374 string characters out of 5858184
- 2100107 words of memory out of 5000000
- 70709 multiletter control sequences out of 15000+600000
+ 54535 strings out of 478994
+ 1213861 string characters out of 5858184
+ 2101893 words of memory out of 5000000
+ 70797 multiletter control sequences out of 15000+600000
  418803 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,17n,91p,1849b,2545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 91i,17n,91p,1849b,2537s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on "/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.pdf" (35 pages, 94819390 bytes).
+Output written on "/Users/kubov/Desktop/BACHELOR THESIS/bachelor_thesis/.texpadtmp/main.pdf" (40 pages, 94981467 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 682 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
- 622 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 764 compressed objects within 8 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 618 words of extra memory for PDF output out of 10000 (max. 10000000)
 
