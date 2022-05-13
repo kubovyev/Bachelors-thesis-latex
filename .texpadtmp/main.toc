@@ -37,4 +37,3 @@
 \contentsline {section}{\numberline {5.2}Complete tests on the vehicle}{20}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}%
 \contentsline {chapter}{\numberline {7}References}{28}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Appendix A}{31}{appendix.A}%
