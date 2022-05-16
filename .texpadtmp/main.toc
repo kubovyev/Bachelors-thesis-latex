@@ -28,11 +28,12 @@
 \contentsline {subsection}{\numberline {3.4.1}Velocity generation}{15}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Path generation}{15}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Filtering of the neural network output}{16}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Pathfinder}{16}{subsection.3.4.4}%
 \contentsline {chapter}{\numberline {4}Simulation}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Software}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Simulation setup}{17}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Simulation results}{17}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Experiment}{20}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Real-world evaluation}{20}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Neural network performance test}{20}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Complete tests on the vehicle}{20}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}%
