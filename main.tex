@@ -486,7 +486,7 @@ Such policy was used during the experiments because the ability to combine the a
 
 \subsection{Filtering of the neural network output}
 
-The implemented neural network produces results online, at 30\,Hz. During operation, a lens flare or other short-term disturbance can occur. It leads to rapid changes in the prediction and combined with the path generation creates wrong, potentially unsafe points in a trajectory. Therefore, the output must be filtered. To get rid of high frequency changes, a low-pass filter is used. In this thesis, a simple yet effective low pass filter was employed: a moving average filter. For frame number $n$, it also remembers $k-1$ previous predictions and outputs average of these $k$ predictions. Value $k=15$ showed good results during tests and thus was used in this work. Its formula is
+The implemented neural network produces results online, at 30\,Hz. During the operation, a lens flare or other short-term disturbance can occur. It leads to rapid changes in the prediction and combined with the path generation creates wrong, potentially unsafe points in a trajectory. Therefore, the output must be filtered. To get rid of high frequency changes, a low-pass filter is used. In this thesis, a simple yet effective low pass filter was employed: a moving average filter. For the frame number $n$, it also remembers $k-1$ previous predictions and outputs the average of these $k$ predictions. Value $k=15$ showed good results during tests and thus was used in this work. Its formula is
 \begin{equation}
 	y_n = u_n + u_{n-1} + u_{n-2} + ... + u_{n-k+1}\,,
 \end{equation}
